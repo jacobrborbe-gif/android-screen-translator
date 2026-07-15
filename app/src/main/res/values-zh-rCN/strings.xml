@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">菜单栏</string>
     <string name="settings_menu_menubar_visible">显示菜单栏</string>
   <string name="settings_menu_menubar_transparency">菜单透明度</string>
-  <string name="settings_menu_menubar_composition">菜单功能</string>
+  <string name="settings_menu_menubar_composition">菜单栏构成</string>
   <string name="settings_menu_cat_translation">翻译</string>
   <string name="settings_menu_translation_transparency">翻译透明度</string>
   <string name="settings_menu_translation_close_delay">关闭延迟</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">正在验证…</string>
   <string name="deepl_key_network_error">由于网络错误，无法验证密钥。密钥已保存。</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">自动按句子选取。</string>
-  <string name="premium_view_description_paragraph_detection">自动识别段落单位。</string>
-  <string name="premium_view_description_select_detection">也可以自行选择需要翻译的区域。</string>
-  <string name="premium_view_description_word_detection">指向一个单词即可即时翻译。</string>
-  <string name="premium_view_description_fixed_area_detection">您可以持续翻译固定区域，如电影字幕。</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">自动按句子选取。</string>
+  <string name="detect_mode_description_paragraph">自动识别段落单位。</string>
+  <string name="detect_mode_description_select">也可以自行选择需要翻译的区域。</string>
+  <string name="detect_mode_description_word">指向一个单词即可即时翻译。</string>
+  <string name="detect_mode_description_fixed_area">您可以持续翻译固定区域，如电影字幕。</string>
   <string name="say_here">我在这里！</string>
   <string name="hint_settings_reopen">双击手柄即可重新打开设置</string>
   <string name="openai_key_guide">输入您的 OpenAI API 密钥即可使用 OpenAI 模型进行翻译。</string>

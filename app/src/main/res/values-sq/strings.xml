@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Shirit menu</string>
     <string name="settings_menu_menubar_visible">Shfaq shiritin e menysë</string>
     <string name="settings_menu_menubar_transparency">Përshkueshmëria e menusë</string>
-    <string name="settings_menu_menubar_composition">Funksionet e menusë</string>
+    <string name="settings_menu_menubar_composition">Përbërja e shiritit të menysë</string>
     <string name="settings_menu_cat_translation">Përkthim</string>
     <string name="settings_menu_translation_transparency">Përshkueshmëria e përkthimit</string>
     <string name="settings_menu_translation_close_delay">Vonese mbylljeje</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Po verifikohet…</string>
     <string name="deepl_key_network_error">Çelësi nuk mund të verifikohej për shkak të një gabimi rrjeti. Çelësi u ruajt.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Fjalitë zgjidhen automatikisht.</string>
-    <string name="premium_view_description_paragraph_detection">Paragrafët njihen automatikisht.</string>
-    <string name="premium_view_description_select_detection">Mund të përzgjedhësh zonën që dëshiron.</string>
-    <string name="premium_view_description_word_detection">Drejtojeni te një fjalë që të përkthehet menjëherë.</string>
-    <string name="premium_view_description_fixed_area_detection">Mund të përktheni vazhdimisht zona fikse, si p.sh. titrat e filmave.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Fjalitë zgjidhen automatikisht.</string>
+    <string name="detect_mode_description_paragraph">Paragrafët njihen automatikisht.</string>
+    <string name="detect_mode_description_select">Mund të përzgjedhësh zonën që dëshiron.</string>
+    <string name="detect_mode_description_word">Drejtojeni te një fjalë që të përkthehet menjëherë.</string>
+    <string name="detect_mode_description_fixed_area">Mund të përktheni vazhdimisht zona fikse, si p.sh. titrat e filmave.</string>
   <string name="say_here">Jam këtu!</string>
   <string name="hint_settings_reopen">Trokitni dy herë mbi dorezën për të hapur sërish cilësimet</string>
   <string name="openai_key_guide">Vendosni çelësin tuaj OpenAI API për të përkthyer me modelet e OpenAI.</string>

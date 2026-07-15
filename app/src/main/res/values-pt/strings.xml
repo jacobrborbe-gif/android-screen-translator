@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Barra de menu</string>
     <string name="settings_menu_menubar_visible">Mostrar a barra de menus</string>
   <string name="settings_menu_menubar_transparency">Transparência do menu</string>
-  <string name="settings_menu_menubar_composition">Funções do menu</string>
+  <string name="settings_menu_menubar_composition">Composição da barra de menus</string>
   <string name="settings_menu_cat_translation">Tradução</string>
   <string name="settings_menu_translation_transparency">Transparência da tradução</string>
   <string name="settings_menu_translation_close_delay">Atraso ao fechar</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">A verificar…</string>
   <string name="deepl_key_network_error">Não foi possível verificar a chave devido a um erro de rede. A chave foi guardada.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">As frases são selecionadas automaticamente.</string>
-  <string name="premium_view_description_paragraph_detection">Unidades de parágrafos são reconhecidas automaticamente.</string>
-  <string name="premium_view_description_select_detection">Também pode selecionar a área que deseja.</string>
-  <string name="premium_view_description_word_detection">Aponte para uma palavra para traduzi-la instantaneamente.</string>
-  <string name="premium_view_description_fixed_area_detection">Pode traduzir continuamente áreas fixas, como as legendas de filmes.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">As frases são selecionadas automaticamente.</string>
+  <string name="detect_mode_description_paragraph">Unidades de parágrafos são reconhecidas automaticamente.</string>
+  <string name="detect_mode_description_select">Também pode selecionar a área que deseja.</string>
+  <string name="detect_mode_description_word">Aponte para uma palavra para traduzi-la instantaneamente.</string>
+  <string name="detect_mode_description_fixed_area">Pode traduzir continuamente áreas fixas, como as legendas de filmes.</string>
   <string name="say_here">Estou aqui!</string>
   <string name="hint_settings_reopen">Toque duas vezes na alça para abrir as configurações novamente</string>
   <string name="openai_key_guide">Insira sua chave de API da OpenAI para traduzir com modelos da OpenAI.</string>

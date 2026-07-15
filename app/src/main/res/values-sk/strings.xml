@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Panel s ponukou</string>
     <string name="settings_menu_menubar_visible">Zobraziť panel s ponukami</string>
     <string name="settings_menu_menubar_transparency">Priehľadnosť ponuky</string>
-    <string name="settings_menu_menubar_composition">Funkcie ponuky</string>
+    <string name="settings_menu_menubar_composition">Usporiadanie panela s ponukami</string>
     <string name="settings_menu_cat_translation">Preklad</string>
     <string name="settings_menu_translation_transparency">Priehľadnosť prekladu</string>
     <string name="settings_menu_translation_close_delay">Zdržanie zatvorenia</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Overuje sa…</string>
     <string name="deepl_key_network_error">Kľúč sa nepodarilo overiť z dôvodu chyby siete. Kľúč bol uložený.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Vety sa vyberajú automaticky.</string>
-    <string name="premium_view_description_paragraph_detection">Odseky sa automaticky rozpoznávajú.</string>
-    <string name="premium_view_description_select_detection">Môžete tiež vybrať konkrétnu oblasť na preklad.</string>
-    <string name="premium_view_description_word_detection">Ukážte na slovo a ihneď sa preloží.</string>
-    <string name="premium_view_description_fixed_area_detection">Môžete nepretržite prekladať pevné oblasti, ako sú napríklad filmové titulky.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Vety sa vyberajú automaticky.</string>
+    <string name="detect_mode_description_paragraph">Odseky sa automaticky rozpoznávajú.</string>
+    <string name="detect_mode_description_select">Môžete tiež vybrať konkrétnu oblasť na preklad.</string>
+    <string name="detect_mode_description_word">Ukážte na slovo a ihneď sa preloží.</string>
+    <string name="detect_mode_description_fixed_area">Môžete nepretržite prekladať pevné oblasti, ako sú napríklad filmové titulky.</string>
   <string name="say_here">Som tu!</string>
   <string name="hint_settings_reopen">Dvojitým ťuknutím na rukoväť znova otvoríte nastavenia</string>
   <string name="openai_key_guide">Zadajte svoj kľúč OpenAI API na preklad pomocou modelov OpenAI.</string>

@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">మెను బార్</string>
     <string name="settings_menu_menubar_visible">మెను బార్‌ను చూపించు</string>
     <string name="settings_menu_menubar_transparency">మెను పారదర్శకత</string>
-    <string name="settings_menu_menubar_composition">మెను ఫంక్షన్లు</string>
+    <string name="settings_menu_menubar_composition">మెను బార్ కూర్పు</string>
     <string name="settings_menu_cat_translation">అనువాదం</string>
     <string name="settings_menu_translation_transparency">అనువాదం పారదర్శకత</string>
     <string name="settings_menu_translation_close_delay">మూసివేసే ఆలస్యం</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">ధృవీకరిస్తోంది…</string>
     <string name="deepl_key_network_error">నెట్‌వర్క్ లోపం కారణంగా కీని ధృవీకరించలేకపోయింది. కీ సేవ్ చేయబడింది.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">వాక్యాలు స్వయంచాలకంగా ఎంపికవుతాయి.</string>
-    <string name="premium_view_description_paragraph_detection">పేరాల గుర్తింపు స్వయంచాలకంగా జరుగుతుంది</string>
-    <string name="premium_view_description_select_detection">మీకు కావలసిన పరిధిని కూడా ఎంచుకోవచ్చు</string>
-    <string name="premium_view_description_word_detection">ఒక పదాన్ని చూపిస్తే అది వెంటనే అనువదించబడుతుంది.</string>
-    <string name="premium_view_description_fixed_area_detection">సినిమా సబ్‌టైటిల్స్ వంటి ఫిక్స్ చేసిన ప్రాంతాలను మీరు నిరంతరంగా అనువదించవచ్చు.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">వాక్యాలు స్వయంచాలకంగా ఎంపికవుతాయి.</string>
+    <string name="detect_mode_description_paragraph">పేరాల గుర్తింపు స్వయంచాలకంగా జరుగుతుంది</string>
+    <string name="detect_mode_description_select">మీకు కావలసిన పరిధిని కూడా ఎంచుకోవచ్చు</string>
+    <string name="detect_mode_description_word">ఒక పదాన్ని చూపిస్తే అది వెంటనే అనువదించబడుతుంది.</string>
+    <string name="detect_mode_description_fixed_area">సినిమా సబ్‌టైటిల్స్ వంటి ఫిక్స్ చేసిన ప్రాంతాలను మీరు నిరంతరంగా అనువదించవచ్చు.</string>
   <string name="say_here">నేను ఇక్కడ!</string>
   <string name="hint_settings_reopen">సెట్టింగ్‌లను మళ్లీ తెరవడానికి హ్యాండిల్‌ను రెండుసార్లు నొక్కండి</string>
   <string name="openai_key_guide">OpenAI మోడల్‌లతో అనువదించడానికి మీ OpenAI API కీని నమోదు చేయండి.</string>

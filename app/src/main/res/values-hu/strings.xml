@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menüsor</string>
     <string name="settings_menu_menubar_visible">Menüsor megjelenítése</string>
     <string name="settings_menu_menubar_transparency">Menü átlátszóság</string>
-    <string name="settings_menu_menubar_composition">Menüfunkciók</string>
+    <string name="settings_menu_menubar_composition">Menüsor összeállítása</string>
     <string name="settings_menu_cat_translation">Fordítás</string>
     <string name="settings_menu_translation_transparency">Fordítás átlátszóság</string>
     <string name="settings_menu_translation_close_delay">Zárás késleltetése</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Ellenőrzés…</string>
     <string name="deepl_key_network_error">A kulcsot hálózati hiba miatt nem sikerült ellenőrizni. A kulcs mentve.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">A mondatok automatikusan kijelölődnek.</string>
-    <string name="premium_view_description_paragraph_detection">A bekezdéseket automatikusan felismeri.</string>
-    <string name="premium_view_description_select_detection">Kijelölheted a kívánt területet is.</string>
-    <string name="premium_view_description_word_detection">Mutasson egy szóra, és azonnal lefordul.</string>
-    <string name="premium_view_description_fixed_area_detection">Folyamatosan fordíthatsz rögzített területeket, például filmfeliratokat.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">A mondatok automatikusan kijelölődnek.</string>
+    <string name="detect_mode_description_paragraph">A bekezdéseket automatikusan felismeri.</string>
+    <string name="detect_mode_description_select">Kijelölheted a kívánt területet is.</string>
+    <string name="detect_mode_description_word">Mutasson egy szóra, és azonnal lefordul.</string>
+    <string name="detect_mode_description_fixed_area">Folyamatosan fordíthatsz rögzített területeket, például filmfeliratokat.</string>
   <string name="say_here">Itt vagyok!</string>
   <string name="hint_settings_reopen">Koppintson duplán a fogantyúra a beállítások újbóli megnyitásához</string>
   <string name="openai_key_guide">Adja meg az OpenAI API-kulcsát, hogy OpenAI-modellekkel fordíthasson.</string>

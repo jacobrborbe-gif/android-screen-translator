@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Barra de menú</string>
     <string name="settings_menu_menubar_visible">Mostra la barra de menús</string>
     <string name="settings_menu_menubar_transparency">Transparència del menú</string>
-    <string name="settings_menu_menubar_composition">Funcions del menú</string>
+    <string name="settings_menu_menubar_composition">Composició de la barra de menús</string>
     <string name="settings_menu_cat_translation">Traducció</string>
     <string name="settings_menu_translation_transparency">Transparència traducció</string>
     <string name="settings_menu_translation_close_delay">Retard de tancament</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">S\'està verificant…</string>
     <string name="deepl_key_network_error">No s\'ha pogut verificar la clau a causa d\'un error de xarxa. La clau s\'ha desat.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Les frases se seleccionen automàticament.</string>
-    <string name="premium_view_description_paragraph_detection">Els paràgrafs es reconeixen automàticament.</string>
-    <string name="premium_view_description_select_detection">També pots seleccionar l’àrea que vulguis.</string>
-    <string name="premium_view_description_word_detection">Assenyala una paraula per traduir-la a l\'instant.</string>
-    <string name="premium_view_description_fixed_area_detection">Pots traduir contínuament àrees fixes, com els subtítols de pel·lícules.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Les frases se seleccionen automàticament.</string>
+    <string name="detect_mode_description_paragraph">Els paràgrafs es reconeixen automàticament.</string>
+    <string name="detect_mode_description_select">També pots seleccionar l’àrea que vulguis.</string>
+    <string name="detect_mode_description_word">Assenyala una paraula per traduir-la a l\'instant.</string>
+    <string name="detect_mode_description_fixed_area">Pots traduir contínuament àrees fixes, com els subtítols de pel·lícules.</string>
   <string name="say_here">Soc aquí!</string>
   <string name="hint_settings_reopen">Toca dues vegades el mànec per tornar a obrir la configuració</string>
   <string name="openai_key_guide">Introduïu la vostra clau API d’OpenAI per traduir amb els models d’OpenAI.</string>

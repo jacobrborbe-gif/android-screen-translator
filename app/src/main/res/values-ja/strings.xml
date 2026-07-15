@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">メニューバー</string>
     <string name="settings_menu_menubar_visible">メニューバーを表示</string>
   <string name="settings_menu_menubar_transparency">メニューの透明度</string>
-  <string name="settings_menu_menubar_composition">メニュー構成</string>
+  <string name="settings_menu_menubar_composition">メニューバーの構成</string>
   <string name="settings_menu_cat_translation">翻訳</string>
   <string name="settings_menu_translation_transparency">翻訳の透明度</string>
   <string name="settings_menu_translation_close_delay">閉じる遅延</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">確認中…</string>
   <string name="deepl_key_network_error">ネットワークエラーのためキーを検証できませんでした。キーは保存されました。</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">文単位で自動的に選択されます。</string>
-  <string name="premium_view_description_paragraph_detection">段落単位で自動認識されます。</string>
-  <string name="premium_view_description_select_detection">翻訳範囲を自分で指定できます。</string>
-  <string name="premium_view_description_word_detection">単語を指し示すとすぐに翻訳されます。</string>
-  <string name="premium_view_description_fixed_area_detection">映画の字幕など、固定された領域を継続的に翻訳できます。</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">文単位で自動的に選択されます。</string>
+  <string name="detect_mode_description_paragraph">段落単位で自動認識されます。</string>
+  <string name="detect_mode_description_select">翻訳範囲を自分で指定できます。</string>
+  <string name="detect_mode_description_word">単語を指し示すとすぐに翻訳されます。</string>
+  <string name="detect_mode_description_fixed_area">映画の字幕など、固定された領域を継続的に翻訳できます。</string>
   <string name="say_here">ここだよ！</string>
   <string name="hint_settings_reopen">ハンドルをダブルタップすると設定をもう一度開けます</string>
   <string name="openai_key_guide">OpenAIモデルで翻訳するには、OpenAI APIキーを入力してください。</string>

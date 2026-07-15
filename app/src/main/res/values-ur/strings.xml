@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">مینو بار</string>
     <string name="settings_menu_menubar_visible">مینو بار دکھائیں</string>
     <string name="settings_menu_menubar_transparency">مینو کی شفافیت</string>
-    <string name="settings_menu_menubar_composition">مینو کی خصوصیات</string>
+    <string name="settings_menu_menubar_composition">مینو بار کی ترتیب</string>
     <string name="settings_menu_cat_translation">ترجمہ</string>
     <string name="settings_menu_translation_transparency">ترجمہ کی شفافیت</string>
     <string name="settings_menu_translation_close_delay">بند کرنے کی تاخیر</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">تصدیق ہو رہی ہے…</string>
     <string name="deepl_key_network_error">نیٹ ورک کی خرابی کی وجہ سے کلید کی تصدیق نہیں ہو سکی۔ کلید محفوظ ہو گئی ہے۔</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">جملے خودکار طور پر منتخب ہوتے ہیں۔</string>
-    <string name="premium_view_description_paragraph_detection">پیراگراف خود بخود شناخت کیے جاتے ہیں۔</string>
-    <string name="premium_view_description_select_detection">آپ مخصوص علاقہ بھی منتخب کر سکتے ہیں۔</string>
-    <string name="premium_view_description_word_detection">کسی لفظ کی طرف اشارہ کریں، وہ فوراً ترجمہ ہو جائے گا۔</string>
-    <string name="premium_view_description_fixed_area_detection">آپ مقررہ علاقوں کا مسلسل ترجمہ کر سکتے ہیں، جیسے فلموں کے سب ٹائٹلز۔</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">جملے خودکار طور پر منتخب ہوتے ہیں۔</string>
+    <string name="detect_mode_description_paragraph">پیراگراف خود بخود شناخت کیے جاتے ہیں۔</string>
+    <string name="detect_mode_description_select">آپ مخصوص علاقہ بھی منتخب کر سکتے ہیں۔</string>
+    <string name="detect_mode_description_word">کسی لفظ کی طرف اشارہ کریں، وہ فوراً ترجمہ ہو جائے گا۔</string>
+    <string name="detect_mode_description_fixed_area">آپ مقررہ علاقوں کا مسلسل ترجمہ کر سکتے ہیں، جیسے فلموں کے سب ٹائٹلز۔</string>
   <string name="say_here">میں یہاں ہوں!</string>
   <string name="hint_settings_reopen">ترتیبات دوبارہ کھولنے کے لیے ہینڈل پر دو بار ٹیپ کریں</string>
   <string name="openai_key_guide">OpenAI ماڈلز کے ساتھ ترجمہ کرنے کے لیے اپنی OpenAI API کلید درج کریں۔</string>

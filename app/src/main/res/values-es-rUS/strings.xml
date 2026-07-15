@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Barra de menú</string>
     <string name="settings_menu_menubar_visible">Mostrar la barra de menús</string>
   <string name="settings_menu_menubar_transparency">Transparencia menú</string>
-  <string name="settings_menu_menubar_composition">Opciones menú</string>
+  <string name="settings_menu_menubar_composition">Composición de la barra de menús</string>
   <string name="settings_menu_cat_translation">Traducción</string>
   <string name="settings_menu_translation_transparency">Transparencia traducción</string>
   <string name="settings_menu_translation_close_delay">Retraso cierre</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Verificando…</string>
   <string name="deepl_key_network_error">No se pudo verificar la clave debido a un error de red. La clave se ha guardado.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Las oraciones se seleccionan automáticamente.</string>
-  <string name="premium_view_description_paragraph_detection">Los párrafos se detectan automáticamente.</string>
-  <string name="premium_view_description_select_detection">También puedes seleccionar el área que deseas traducir.</string>
-  <string name="premium_view_description_word_detection">Apunta a una palabra para traducirla al instante.</string>
-  <string name="premium_view_description_fixed_area_detection">Puedes traducir continuamente áreas fijas, como los subtítulos de películas.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Las oraciones se seleccionan automáticamente.</string>
+  <string name="detect_mode_description_paragraph">Los párrafos se detectan automáticamente.</string>
+  <string name="detect_mode_description_select">También puedes seleccionar el área que deseas traducir.</string>
+  <string name="detect_mode_description_word">Apunta a una palabra para traducirla al instante.</string>
+  <string name="detect_mode_description_fixed_area">Puedes traducir continuamente áreas fijas, como los subtítulos de películas.</string>
   <string name="say_here">¡Estoy aquí!</string>
   <string name="hint_settings_reopen">Toca dos veces el controlador para volver a abrir la configuración</string>
   <string name="openai_key_guide">Ingresa tu clave de API de OpenAI para traducir con modelos de OpenAI.</string>

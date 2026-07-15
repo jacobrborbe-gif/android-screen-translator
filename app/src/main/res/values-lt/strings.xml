@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Meniu juosta</string>
     <string name="settings_menu_menubar_visible">Rodyti meniu juostą</string>
     <string name="settings_menu_menubar_transparency">Meniu skaidrumas</string>
-    <string name="settings_menu_menubar_composition">Meniu funkcijos</string>
+    <string name="settings_menu_menubar_composition">Meniu juostos sudėtis</string>
     <string name="settings_menu_cat_translation">Vertimas</string>
     <string name="settings_menu_translation_transparency">Vertimo skaidrumas</string>
     <string name="settings_menu_translation_close_delay">Uždarymo delsimas</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Tikrinama…</string>
     <string name="deepl_key_network_error">Nepavyko patikrinti rakto dėl tinklo klaidos. Raktas išsaugotas.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Sakiniai parenkami automatiškai.</string>
-    <string name="premium_view_description_paragraph_detection">Pastraipos aptinkamos automatiškai.</string>
-    <string name="premium_view_description_select_detection">Galite pasirinkti norimą sritį rankiniu būdu.</string>
-    <string name="premium_view_description_word_detection">Nurodykite žodį ir jis bus iškart išverstas.</string>
-    <string name="premium_view_description_fixed_area_detection">Galite nuolat versti fiksuotas sritis, tokias kaip filmų subtitrai.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Sakiniai parenkami automatiškai.</string>
+    <string name="detect_mode_description_paragraph">Pastraipos aptinkamos automatiškai.</string>
+    <string name="detect_mode_description_select">Galite pasirinkti norimą sritį rankiniu būdu.</string>
+    <string name="detect_mode_description_word">Nurodykite žodį ir jis bus iškart išverstas.</string>
+    <string name="detect_mode_description_fixed_area">Galite nuolat versti fiksuotas sritis, tokias kaip filmų subtitrai.</string>
   <string name="say_here">Aš čia!</string>
   <string name="hint_settings_reopen">Dukart bakstelėkite rankenėlę, kad vėl atidarytumėte nustatymus</string>
   <string name="openai_key_guide">Įveskite savo OpenAI API raktą, kad galėtumėte versti su OpenAI modeliais.</string>

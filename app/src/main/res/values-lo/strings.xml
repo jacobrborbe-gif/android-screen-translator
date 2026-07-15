@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">ແຖບເມນູ</string>
     <string name="settings_menu_menubar_visible">ສະແດງແຖບເມນູ</string>
   <string name="settings_menu_menubar_transparency">ຄວາມໂປ່ງໃສເມນູ</string>
-  <string name="settings_menu_menubar_composition">ຟັງຊັນເມນູ</string>
+  <string name="settings_menu_menubar_composition">ອົງປະກອບຂອງແຖບເມນູ</string>
   <string name="settings_menu_cat_translation">ການແປ</string>
   <string name="settings_menu_translation_transparency">ຄວາມໂປ່ງໃສແປ</string>
   <string name="settings_menu_translation_close_delay">ຊ້າໃນການປິດ</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">ກຳລັງກວດສອບ…</string>
   <string name="deepl_key_network_error">ບໍ່ສາມາດກວດສອບກະແຈໄດ້ ເນື່ອງຈາກຂໍ້ຜິດພາດເຄືອຂ່າຍ. ກະແຈຖືກບັນທຶກແລ້ວ.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">ປະໂຫຍກຖືກເລືອກໂດຍອັດຕະໂນມັດ</string>
-  <string name="premium_view_description_paragraph_detection">ຈັບຂໍ້ຄວາມແບບຍໍ່ໄດ້ອັດຕະໂນມັດ</string>
-  <string name="premium_view_description_select_detection">ເຈົ້າສາມາດເລືອກຂອບເຂດໄດ້</string>
-  <string name="premium_view_description_word_detection">ຊີ້ໄປທີ່ຄໍາ ເພື່ອແປໃນທັນທີ.</string>
-  <string name="premium_view_description_fixed_area_detection">ທ່ານສາມາດແປພື້ນທີ່ຄົງທີ່ໄດ້ຕະຫຼອດ, ເຊັ່ນ ຄຳບັນຍາຍໃນຮູບເງົາ.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">ປະໂຫຍກຖືກເລືອກໂດຍອັດຕະໂນມັດ</string>
+  <string name="detect_mode_description_paragraph">ຈັບຂໍ້ຄວາມແບບຍໍ່ໄດ້ອັດຕະໂນມັດ</string>
+  <string name="detect_mode_description_select">ເຈົ້າສາມາດເລືອກຂອບເຂດໄດ້</string>
+  <string name="detect_mode_description_word">ຊີ້ໄປທີ່ຄໍາ ເພື່ອແປໃນທັນທີ.</string>
+  <string name="detect_mode_description_fixed_area">ທ່ານສາມາດແປພື້ນທີ່ຄົງທີ່ໄດ້ຕະຫຼອດ, ເຊັ່ນ ຄຳບັນຍາຍໃນຮູບເງົາ.</string>
   <string name="say_here">ຢູ່ນີ້!</string>
   <string name="hint_settings_reopen">ແຕະສອງເທື່ອທີ່ບ່ອນຈັບເພື່ອເປີດການຕັ້ງຄ່າອີກຄັ້ງ</string>
   <string name="openai_key_guide">ໃສ່ກະແຈ OpenAI API ຂອງທ່ານເພື່ອແປດ້ວຍໂມເດວ OpenAI.</string>

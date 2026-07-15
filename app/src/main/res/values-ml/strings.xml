@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">മെനു പട്ട</string>
     <string name="settings_menu_menubar_visible">മെനു ബാർ കാണിക്കുക</string>
     <string name="settings_menu_menubar_transparency">മെനു പാരദര്‍ശിത്വം</string>
-    <string name="settings_menu_menubar_composition">മെനു ഫംഗ്ഷനുകൾ</string>
+    <string name="settings_menu_menubar_composition">മെനു ബാർ ഘടന</string>
     <string name="settings_menu_cat_translation">ഭാഷാന്തരം</string>
     <string name="settings_menu_translation_transparency">പരിഭാഷ പാരദര്‍ശിത്വം</string>
     <string name="settings_menu_translation_close_delay">അടയ്ക്കൽ വൈകിപ്പ്</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">പരിശോധിക്കുന്നു…</string>
     <string name="deepl_key_network_error">നെറ്റ്‌വർക്ക് പിശക് കാരണം കീ പരിശോധിക്കാനായില്ല. കീ സംരക്ഷിച്ചു.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">വാക്യങ്ങൾ സ്വയമേവ തിരഞ്ഞെടുക്കപ്പെടും.</string>
-    <string name="premium_view_description_paragraph_detection">പാരഗ്രാഫുകൾ സ്വയം തിരിച്ചറിയപ്പെടും.</string>
-    <string name="premium_view_description_select_detection">നിങ്ങൾക്ക് വേണ്ടിയ ഭാഗം തിരഞ്ഞടുക്കാം.</string>
-    <string name="premium_view_description_word_detection">ഒരു വാക്കിലേക്ക് ചൂണ്ടുക, അത് ഉടനടി വിവർത്തനം ചെയ്യപ്പെടും.</string>
-    <string name="premium_view_description_fixed_area_detection">സിനിമ സബ്‌ടൈറ്റിലുകൾ പോലുള്ള സ്ഥിരമായ പ്രദേശങ്ങൾ നിങ്ങൾക്ക് തുടർച്ചയായി വിവർത്തനം ചെയ്യാൻ കഴിയും.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">വാക്യങ്ങൾ സ്വയമേവ തിരഞ്ഞെടുക്കപ്പെടും.</string>
+    <string name="detect_mode_description_paragraph">പാരഗ്രാഫുകൾ സ്വയം തിരിച്ചറിയപ്പെടും.</string>
+    <string name="detect_mode_description_select">നിങ്ങൾക്ക് വേണ്ടിയ ഭാഗം തിരഞ്ഞടുക്കാം.</string>
+    <string name="detect_mode_description_word">ഒരു വാക്കിലേക്ക് ചൂണ്ടുക, അത് ഉടനടി വിവർത്തനം ചെയ്യപ്പെടും.</string>
+    <string name="detect_mode_description_fixed_area">സിനിമ സബ്‌ടൈറ്റിലുകൾ പോലുള്ള സ്ഥിരമായ പ്രദേശങ്ങൾ നിങ്ങൾക്ക് തുടർച്ചയായി വിവർത്തനം ചെയ്യാൻ കഴിയും.</string>
   <string name="say_here">ഞാൻ ഇവിടെ!</string>
   <string name="hint_settings_reopen">ക്രമീകരണം വീണ്ടും തുറക്കാൻ ഹാൻഡിലിൽ രണ്ടുതവണ ടാപ്പ് ചെയ്യുക</string>
   <string name="openai_key_guide">OpenAI മോഡലുകൾ ഉപയോഗിച്ച് വിവർത്തനം ചെയ്യാൻ നിങ്ങളുടെ OpenAI API കീ നൽകുക.</string>

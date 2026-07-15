@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Մենյուի գիծ</string>
     <string name="settings_menu_menubar_visible">Ցուցադրել ընտրացանկի գոտին</string>
     <string name="settings_menu_menubar_transparency">Մենյուի թափանցիկություն</string>
-    <string name="settings_menu_menubar_composition">Մենյուի գործառույթներ</string>
+    <string name="settings_menu_menubar_composition">Ընտրացանկի գոտու դասավորություն</string>
     <string name="settings_menu_cat_translation">Թարգմանություն</string>
     <string name="settings_menu_translation_transparency">Թարգմանության թափանցիկություն</string>
     <string name="settings_menu_translation_close_delay">Փակման հապաղում</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Ստուգվում է…</string>
     <string name="deepl_key_network_error">Ցանցի սխալի պատճառով բանալին չհաջողվեց ստուգել։ Բանալին պահպանվեց։</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Նախադասություններն ընտրվում են ավտոմատ։</string>
-    <string name="premium_view_description_paragraph_detection">Պարբերությունները հայտնաբերվում են ավտոմատ կերպով։</string>
-    <string name="premium_view_description_select_detection">Դուք կարող եք նաև նշել ձեր ուզած հատվածը։</string>
-    <string name="premium_view_description_word_detection">Ցույց տվեք բառը, և այն անմիջապես կթարգմանվի։</string>
-    <string name="premium_view_description_fixed_area_detection">Դուք կարող եք շարունակաբար թարգմանել ֆիքսված տարածքները, օրինակ՝ ֆիլմերի ենթագրերը։</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Նախադասություններն ընտրվում են ավտոմատ։</string>
+    <string name="detect_mode_description_paragraph">Պարբերությունները հայտնաբերվում են ավտոմատ կերպով։</string>
+    <string name="detect_mode_description_select">Դուք կարող եք նաև նշել ձեր ուզած հատվածը։</string>
+    <string name="detect_mode_description_word">Ցույց տվեք բառը, և այն անմիջապես կթարգմանվի։</string>
+    <string name="detect_mode_description_fixed_area">Դուք կարող եք շարունակաբար թարգմանել ֆիքսված տարածքները, օրինակ՝ ֆիլմերի ենթագրերը։</string>
   <string name="say_here">Ես այստեղ եմ!</string>
   <string name="hint_settings_reopen">Կրկնակի հպեք բռնակին՝ կարգավորումները նորից բացելու համար</string>
   <string name="openai_key_guide">Մուտքագրեք ձեր OpenAI API բանալին՝ OpenAI մոդելներով թարգմանելու համար։</string>

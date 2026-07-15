@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Панель меню</string>
     <string name="settings_menu_menubar_visible">Показывать панель меню</string>
     <string name="settings_menu_menubar_transparency">Прозрачность меню</string>
-    <string name="settings_menu_menubar_composition">Функции меню</string>
+    <string name="settings_menu_menubar_composition">Состав панели меню</string>
     <string name="settings_menu_cat_translation">Перевод</string>
     <string name="settings_menu_translation_transparency">Прозрачность перевода</string>
     <string name="settings_menu_translation_close_delay">Задержка закрытия</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Проверка…</string>
     <string name="deepl_key_network_error">Не удалось проверить ключ из-за ошибки сети. Ключ сохранён.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Предложения выделяются автоматически.</string>
-    <string name="premium_view_description_paragraph_detection">Абзацы распознаются автоматически.</string>
-    <string name="premium_view_description_select_detection">Можно выбрать нужную область вручную.</string>
-    <string name="premium_view_description_word_detection">Наведите на слово, чтобы мгновенно его перевести.</string>
-    <string name="premium_view_description_fixed_area_detection">Вы можете непрерывно переводить фиксированные области, например, субтитры фильмов.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Предложения выделяются автоматически.</string>
+    <string name="detect_mode_description_paragraph">Абзацы распознаются автоматически.</string>
+    <string name="detect_mode_description_select">Можно выбрать нужную область вручную.</string>
+    <string name="detect_mode_description_word">Наведите на слово, чтобы мгновенно его перевести.</string>
+    <string name="detect_mode_description_fixed_area">Вы можете непрерывно переводить фиксированные области, например, субтитры фильмов.</string>
   <string name="say_here">Я здесь!</string>
   <string name="hint_settings_reopen">Дважды коснитесь маркера, чтобы снова открыть настройки</string>
   <string name="openai_key_guide">Введите свой ключ OpenAI API, чтобы переводить с помощью моделей OpenAI.</string>

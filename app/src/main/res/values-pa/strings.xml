@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">ਮੇਨੂ ਪੱਟੀ</string>
     <string name="settings_menu_menubar_visible">ਮੀਨੂ ਬਾਰ ਦਿਖਾਓ</string>
     <string name="settings_menu_menubar_transparency">ਮੇਨੂ ਪਾਰਦਰਸ਼ਤਾ</string>
-    <string name="settings_menu_menubar_composition">ਮੇਨੂ ਫੰਕਸ਼ਨ</string>
+    <string name="settings_menu_menubar_composition">ਮੀਨੂ ਬਾਰ ਬਣਤਰ</string>
     <string name="settings_menu_cat_translation">ਅਨੁਵਾਦ</string>
     <string name="settings_menu_translation_transparency">ਅਨੁਵਾਦ ਪਾਰਦਰਸ਼ਤਾ</string>
     <string name="settings_menu_translation_close_delay">ਬੰਦ ਕਰਨ ਦੀ ਦੇਰੀ</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">ਪੁਸ਼ਟੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
     <string name="deepl_key_network_error">ਨੈੱਟਵਰਕ ਗੜਬੜ ਕਾਰਨ ਕੁੰਜੀ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ। ਕੁੰਜੀ ਸੰਭਾਲੀ ਗਈ ਹੈ।</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">ਵਾਕ ਆਪਣੇ-ਆਪ ਚੁਣੇ ਜਾਂਦੇ ਹਨ।</string>
-    <string name="premium_view_description_paragraph_detection">ਪੈਰਾ ਆਪਣੇ ਆਪ ਪਛਾਣੇ ਜਾਂਦੇ ਹਨ।</string>
-    <string name="premium_view_description_select_detection">ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹਿੱਸੇ ਦੀ ਚੋਣ ਵੀ ਕਰ ਸਕਦੇ ਹੋ।</string>
-    <string name="premium_view_description_word_detection">ਕਿਸੇ ਸ਼ਬਦ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰੋ, ਇਹ ਤੁਰੰਤ ਅਨੁਵਾਦ ਹੋ ਜਾਵੇਗਾ।</string>
-    <string name="premium_view_description_fixed_area_detection">ਤੁਸੀਂ ਫਿਲਮ ਸਬਟਾਈਟਲਾਂ ਵਾਂਗ ਸਥਿਰ ਖੇਤਰਾਂ ਦਾ ਲਗਾਤਾਰ ਅਨੁਵਾਦ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">ਵਾਕ ਆਪਣੇ-ਆਪ ਚੁਣੇ ਜਾਂਦੇ ਹਨ।</string>
+    <string name="detect_mode_description_paragraph">ਪੈਰਾ ਆਪਣੇ ਆਪ ਪਛਾਣੇ ਜਾਂਦੇ ਹਨ।</string>
+    <string name="detect_mode_description_select">ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹਿੱਸੇ ਦੀ ਚੋਣ ਵੀ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="detect_mode_description_word">ਕਿਸੇ ਸ਼ਬਦ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰੋ, ਇਹ ਤੁਰੰਤ ਅਨੁਵਾਦ ਹੋ ਜਾਵੇਗਾ।</string>
+    <string name="detect_mode_description_fixed_area">ਤੁਸੀਂ ਫਿਲਮ ਸਬਟਾਈਟਲਾਂ ਵਾਂਗ ਸਥਿਰ ਖੇਤਰਾਂ ਦਾ ਲਗਾਤਾਰ ਅਨੁਵਾਦ ਕਰ ਸਕਦੇ ਹੋ।</string>
   <string name="say_here">ਮੈਂ ਇੱਥੇ ਹਾਂ!</string>
   <string name="hint_settings_reopen">ਸੈਟਿੰਗਾਂ ਦੁਬਾਰਾ ਖੋਲ੍ਹਣ ਲਈ ਹੈਂਡਲ ਨੂੰ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ</string>
   <string name="openai_key_guide">OpenAI ਮਾਡਲਾਂ ਨਾਲ ਅਨੁਵਾਦ ਕਰਨ ਲਈ ਆਪਣੀ OpenAI API ਕੁੰਜੀ ਦਾਖਲ ਕਰੋ।</string>

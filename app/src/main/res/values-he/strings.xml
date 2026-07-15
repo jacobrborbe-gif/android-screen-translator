@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">תפריט עליון</string>
     <string name="settings_menu_menubar_visible">הצג את שורת התפריטים</string>
   <string name="settings_menu_menubar_transparency">שקיפות תפריט</string>
-  <string name="settings_menu_menubar_composition">אפשרויות תפריט</string>
+  <string name="settings_menu_menubar_composition">מבנה שורת התפריטים</string>
   <string name="settings_menu_cat_translation">תרגום</string>
   <string name="settings_menu_translation_transparency">שקיפות תרגום</string>
   <string name="settings_menu_translation_close_delay">עיכוב סגירה</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">מאמת…</string>
   <string name="deepl_key_network_error">לא ניתן היה לאמת את המפתח עקב שגיאת רשת. המפתח נשמר.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">המשפטים נבחרים אוטומטית.</string>
-  <string name="premium_view_description_paragraph_detection">יחידות פסקה מזוהות אוטומטית.</string>
-  <string name="premium_view_description_select_detection">באפשרותך גם לבחור את הטווח הרצוי.</string>
-  <string name="premium_view_description_word_detection">הצביעו על מילה כדי לתרגם אותה מיד.</string>
-  <string name="premium_view_description_fixed_area_detection">באפשרותך לתרגם ברציפות אזורים קבועים, כמו כתוביות של סרטים.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">המשפטים נבחרים אוטומטית.</string>
+  <string name="detect_mode_description_paragraph">יחידות פסקה מזוהות אוטומטית.</string>
+  <string name="detect_mode_description_select">באפשרותך גם לבחור את הטווח הרצוי.</string>
+  <string name="detect_mode_description_word">הצביעו על מילה כדי לתרגם אותה מיד.</string>
+  <string name="detect_mode_description_fixed_area">באפשרותך לתרגם ברציפות אזורים קבועים, כמו כתוביות של סרטים.</string>
   <string name="say_here">אני כאן!</string>
   <string name="hint_settings_reopen">הקש פעמיים על הידית כדי לפתוח שוב את ההגדרות</string>
   <string name="openai_key_guide">הזינו את מפתח OpenAI API שלכם כדי לתרגם עם מודלים של OpenAI.</string>

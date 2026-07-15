@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Valmyndarslá</string>
     <string name="settings_menu_menubar_visible">Sýna valmyndastikuna</string>
     <string name="settings_menu_menubar_transparency">Gegnsæi valmyndar</string>
-    <string name="settings_menu_menubar_composition">Valmynda aðgerðir</string>
+    <string name="settings_menu_menubar_composition">Uppsetning valmyndastiku</string>
     <string name="settings_menu_cat_translation">Þýðing</string>
     <string name="settings_menu_translation_transparency">Gegnsæi þýðingar</string>
     <string name="settings_menu_translation_close_delay">Töf við lokun</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Staðfestir…</string>
     <string name="deepl_key_network_error">Ekki tókst að staðfesta lykilinn vegna netvillu. Lykillinn var vistaður.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Setningar eru valdar sjálfkrafa.</string>
-    <string name="premium_view_description_paragraph_detection">Málsgreinar eru greindar sjálfkrafa.</string>
-    <string name="premium_view_description_select_detection">Þú getur líka valið svæðið sem þú vilt.</string>
-    <string name="premium_view_description_word_detection">Bentu á orð til að þýða það samstundis.</string>
-    <string name="premium_view_description_fixed_area_detection">Þú getur þýtt stöðug svæði eins og texta í kvikmyndum.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Setningar eru valdar sjálfkrafa.</string>
+    <string name="detect_mode_description_paragraph">Málsgreinar eru greindar sjálfkrafa.</string>
+    <string name="detect_mode_description_select">Þú getur líka valið svæðið sem þú vilt.</string>
+    <string name="detect_mode_description_word">Bentu á orð til að þýða það samstundis.</string>
+    <string name="detect_mode_description_fixed_area">Þú getur þýtt stöðug svæði eins og texta í kvikmyndum.</string>
   <string name="say_here">Ég er hér!</string>
   <string name="hint_settings_reopen">Tvísmelltu á handfangið til að opna stillingar aftur</string>
   <string name="openai_key_guide">Sláðu inn OpenAI API-lykilinn þinn til að þýða með OpenAI-líkönum.</string>

@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">मेनु बार</string>
     <string name="settings_menu_menubar_visible">मेनु बार देखाउनुहोस्</string>
     <string name="settings_menu_menubar_transparency">मेनु पारदर्शिता</string>
-    <string name="settings_menu_menubar_composition">मेनु कार्यहरू</string>
+    <string name="settings_menu_menubar_composition">मेनु बार संरचना</string>
     <string name="settings_menu_cat_translation">अनुवाद</string>
     <string name="settings_menu_translation_transparency">अनुवाद पारदर्शिता</string>
     <string name="settings_menu_translation_close_delay">बन्द ढिलाइ</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">प्रमाणित गर्दै…</string>
     <string name="deepl_key_network_error">नेटवर्क त्रुटिका कारण कुञ्जी प्रमाणित गर्न सकिएन। कुञ्जी सुरक्षित गरियो।</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">वाक्यहरू स्वतः चयन हुन्छन्।</string>
-    <string name="premium_view_description_paragraph_detection">अनुच्छेदहरू स्वचालित रूपमा चिनिन्छन्।</string>
-    <string name="premium_view_description_select_detection">तपाईं चाहेको दायरा पनि चयन गर्न सक्नुहुन्छ।</string>
-    <string name="premium_view_description_word_detection">कुनै शब्दमा इसारा गर्नुहोस्, त्यो तुरुन्तै अनुवाद हुन्छ।</string>
-    <string name="premium_view_description_fixed_area_detection">तपाईंले चलचित्रका सबटाइटलहरू जस्ता स्थिर क्षेत्रहरू निरन्तर अनुवाद गर्न सक्नुहुन्छ।</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">वाक्यहरू स्वतः चयन हुन्छन्।</string>
+    <string name="detect_mode_description_paragraph">अनुच्छेदहरू स्वचालित रूपमा चिनिन्छन्।</string>
+    <string name="detect_mode_description_select">तपाईं चाहेको दायरा पनि चयन गर्न सक्नुहुन्छ।</string>
+    <string name="detect_mode_description_word">कुनै शब्दमा इसारा गर्नुहोस्, त्यो तुरुन्तै अनुवाद हुन्छ।</string>
+    <string name="detect_mode_description_fixed_area">तपाईंले चलचित्रका सबटाइटलहरू जस्ता स्थिर क्षेत्रहरू निरन्तर अनुवाद गर्न सक्नुहुन्छ।</string>
   <string name="say_here">म यहाँ छु!</string>
   <string name="hint_settings_reopen">सेटिङ फेरि खोल्न ह्यान्डलमा डबल ट्याप गर्नुहोस्</string>
   <string name="openai_key_guide">OpenAI मोडेलहरूसँग अनुवाद गर्न आफ्नो OpenAI API कुञ्जी प्रविष्ट गर्नुहोस्।</string>

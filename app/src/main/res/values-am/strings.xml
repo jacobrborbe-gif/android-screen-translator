@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">ምናሌ</string>
     <string name="settings_menu_menubar_visible">የምናሌ አሞሌ አሳይ</string>
     <string name="settings_menu_menubar_transparency">የምናሌ ትርፍና</string>
-    <string name="settings_menu_menubar_composition">ምናሌ ባህሪዎች</string>
+    <string name="settings_menu_menubar_composition">የምናሌ አሞሌ አቀማመጥ</string>
     <string name="settings_menu_cat_translation">ትርጉም</string>
     <string name="settings_menu_translation_transparency">የትርጉም ትርፍና</string>
     <string name="settings_menu_translation_close_delay">መዝጊያ ማቆያ</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">በማረጋገጥ ላይ…</string>
     <string name="deepl_key_network_error">በአውታረ መረብ ስህተት ምክንያት ቁልፉን ማረጋገጥ አልተቻለም። ቁልፉ ተቀምጧል።</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">ዓረፍተ ነገሮች በራስ-ሰር ይመረጣሉ።</string>
-    <string name="premium_view_description_paragraph_detection">አንቀፆች በራሳቸው ይታወቃሉ።</string>
-    <string name="premium_view_description_select_detection">ምርጫ የሚፈልጉትን ክልል ይምረጡ።</string>
-    <string name="premium_view_description_word_detection">አንድ ቃል ላይ ይጠቁሙ፣ ወዲያውኑ ይተረጎማል።</string>
-    <string name="premium_view_description_fixed_area_detection">እንደ ፊልም ንዑሶች ያሉ ቆይታ አካባቢዎችን ቀጥሏል መተርጎም ይችላሉ።</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">ዓረፍተ ነገሮች በራስ-ሰር ይመረጣሉ።</string>
+    <string name="detect_mode_description_paragraph">አንቀፆች በራሳቸው ይታወቃሉ።</string>
+    <string name="detect_mode_description_select">ምርጫ የሚፈልጉትን ክልል ይምረጡ።</string>
+    <string name="detect_mode_description_word">አንድ ቃል ላይ ይጠቁሙ፣ ወዲያውኑ ይተረጎማል።</string>
+    <string name="detect_mode_description_fixed_area">እንደ ፊልም ንዑሶች ያሉ ቆይታ አካባቢዎችን ቀጥሏል መተርጎም ይችላሉ።</string>
   <string name="say_here">እዚህ ነኝ!</string>
   <string name="hint_settings_reopen">ቅንብሮችን እንደገና ለመክፈት እጀታውን ሁለቴ ይንኩ</string>
   <string name="openai_key_guide">በOpenAI ሞዴሎች ለመተርጎም የOpenAI API ቁልፍዎን ያስገቡ።</string>

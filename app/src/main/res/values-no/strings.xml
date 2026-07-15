@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menylinje</string>
     <string name="settings_menu_menubar_visible">Vis menylinjen</string>
     <string name="settings_menu_menubar_transparency">Menygjennomsiktighet</string>
-    <string name="settings_menu_menubar_composition">Menyfunksjoner</string>
+    <string name="settings_menu_menubar_composition">Menylinjens sammensetning</string>
     <string name="settings_menu_cat_translation">Oversettelse</string>
     <string name="settings_menu_translation_transparency">Gjennomsiktighet for oversettelse</string>
     <string name="settings_menu_translation_close_delay">Lukkeforsinkelse</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Verifiserer…</string>
     <string name="deepl_key_network_error">Kunne ikke verifisere nøkkelen på grunn av en nettverksfeil. Nøkkelen ble lagret.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Setninger velges automatisk.</string>
-    <string name="premium_view_description_paragraph_detection">Avsnitt gjenkjennes automatisk.</string>
-    <string name="premium_view_description_select_detection">Velg nøyaktig område du vil oversette.</string>
-    <string name="premium_view_description_word_detection">Pek på et ord for å oversette det umiddelbart.</string>
-    <string name="premium_view_description_fixed_area_detection">Du kan kontinuerlig oversette faste områder, som filmtekster.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Setninger velges automatisk.</string>
+    <string name="detect_mode_description_paragraph">Avsnitt gjenkjennes automatisk.</string>
+    <string name="detect_mode_description_select">Velg nøyaktig område du vil oversette.</string>
+    <string name="detect_mode_description_word">Pek på et ord for å oversette det umiddelbart.</string>
+    <string name="detect_mode_description_fixed_area">Du kan kontinuerlig oversette faste områder, som filmtekster.</string>
   <string name="say_here">Jeg er her!</string>
   <string name="hint_settings_reopen">Dobbelttrykk på håndtaket for å åpne innstillingene igjen</string>
   <string name="openai_key_guide">Skriv inn OpenAI API-nøkkelen din for å oversette med OpenAI-modeller.</string>

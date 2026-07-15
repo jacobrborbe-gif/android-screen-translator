@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Bar menu</string>
     <string name="settings_menu_menubar_visible">Tunjukkan bar menu</string>
     <string name="settings_menu_menubar_transparency">Ketelusan menu</string>
-    <string name="settings_menu_menubar_composition">Fungsi menu</string>
+    <string name="settings_menu_menubar_composition">Komposisi bar menu</string>
     <string name="settings_menu_cat_translation">Terjemahan</string>
     <string name="settings_menu_translation_transparency">Ketelusan terjemahan</string>
     <string name="settings_menu_translation_close_delay">Lengah tutup</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Mengesahkan…</string>
     <string name="deepl_key_network_error">Kunci tidak dapat disahkan disebabkan ralat rangkaian. Kunci telah disimpan.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Ayat dipilih secara automatik.</string>
-    <string name="premium_view_description_paragraph_detection">Perenggan dikenal pasti secara automatik.</string>
-    <string name="premium_view_description_select_detection">Anda juga boleh memilih kawasan yang anda mahu.</string>
-    <string name="premium_view_description_word_detection">Tuding pada perkataan untuk menterjemahkannya serta-merta.</string>
-    <string name="premium_view_description_fixed_area_detection">Anda boleh menterjemah kawasan tetap secara berterusan, seperti sari kata filem.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Ayat dipilih secara automatik.</string>
+    <string name="detect_mode_description_paragraph">Perenggan dikenal pasti secara automatik.</string>
+    <string name="detect_mode_description_select">Anda juga boleh memilih kawasan yang anda mahu.</string>
+    <string name="detect_mode_description_word">Tuding pada perkataan untuk menterjemahkannya serta-merta.</string>
+    <string name="detect_mode_description_fixed_area">Anda boleh menterjemah kawasan tetap secara berterusan, seperti sari kata filem.</string>
   <string name="say_here">Saya di sini!</string>
   <string name="hint_settings_reopen">Ketik dua kali pemegang untuk membuka tetapan semula</string>
   <string name="openai_key_guide">Masukkan kunci OpenAI API anda untuk menterjemah dengan model OpenAI.</string>

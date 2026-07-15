@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Цэсний мөр</string>
     <string name="settings_menu_menubar_visible">Цэсний мөрийг харуулах</string>
     <string name="settings_menu_menubar_transparency">Цэсний тунгалаг байдал</string>
-    <string name="settings_menu_menubar_composition">Цэсний функцууд</string>
+    <string name="settings_menu_menubar_composition">Цэсний мөрийн бүрэлдэхүүн</string>
     <string name="settings_menu_cat_translation">Орчуулга</string>
     <string name="settings_menu_translation_transparency">Орчуулгын тунгалаг</string>
     <string name="settings_menu_translation_close_delay">Хаалтын саатал</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Шалгаж байна…</string>
     <string name="deepl_key_network_error">Сүлжээний алдааны улмаас түлхүүрийг шалгаж чадсангүй. Түлхүүр хадгалагдлаа.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Өгүүлбэрүүд автоматаар сонгогдоно.</string>
-    <string name="premium_view_description_paragraph_detection">Догол мөрийг автоматаар танина.</string>
-    <string name="premium_view_description_select_detection">Хүссэн хэсгээ зааж орчуулж болно.</string>
-    <string name="premium_view_description_word_detection">Үг рүү заахад тэр даруй орчуулагдана.</string>
-    <string name="premium_view_description_fixed_area_detection">Та киноны хадмал орчуулга гэх мэт тогтмол бүсүүдийг тасралтгүй орчуулах боломжтой.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Өгүүлбэрүүд автоматаар сонгогдоно.</string>
+    <string name="detect_mode_description_paragraph">Догол мөрийг автоматаар танина.</string>
+    <string name="detect_mode_description_select">Хүссэн хэсгээ зааж орчуулж болно.</string>
+    <string name="detect_mode_description_word">Үг рүү заахад тэр даруй орчуулагдана.</string>
+    <string name="detect_mode_description_fixed_area">Та киноны хадмал орчуулга гэх мэт тогтмол бүсүүдийг тасралтгүй орчуулах боломжтой.</string>
   <string name="say_here">Би энд байна!</string>
   <string name="hint_settings_reopen">Тохиргоог дахин нээхийн тулд бариулыг хоёр товшино уу</string>
   <string name="openai_key_guide">OpenAI загваруудаар орчуулахын тулд OpenAI API түлхүүрээ оруулна уу.</string>

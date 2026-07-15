@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menu Bar</string>
     <string name="settings_menu_menubar_visible">Ipakita ang menu bar</string>
     <string name="settings_menu_menubar_transparency">Menu Transparency</string>
-    <string name="settings_menu_menubar_composition">Mga Gamit sa Menu</string>
+    <string name="settings_menu_menubar_composition">Komposisyon ng menu bar</string>
     <string name="settings_menu_cat_translation">Pagsasalin</string>
     <string name="settings_menu_translation_transparency">Labo ng Salin</string>
     <string name="settings_menu_translation_close_delay">Delay sa Pagsara</string>
@@ -76,12 +76,12 @@
     <string name="deepl_key_validating">Bine-verify…</string>
     <string name="deepl_key_network_error">Hindi ma-verify ang key dahil sa error sa network. Na-save ang key.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Awtomatikong pipiliin ang mga pangungusap.</string>
-    <string name="premium_view_description_paragraph_detection">Awtomatikong nakikilala ang mga talata.</string>
-    <string name="premium_view_description_select_detection">Maaari mo ring tukuyin ang nais na saklaw.</string>
-    <string name="premium_view_description_word_detection">Ituro ang isang salita para agad itong maisalin.</string>
-    <string name="premium_view_description_fixed_area_detection">Maaari kang tuloy-tuloy na magsalin ng mga nakapirming lugar, tulad ng mga subtitle ng pelikula.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Awtomatikong pipiliin ang mga pangungusap.</string>
+    <string name="detect_mode_description_paragraph">Awtomatikong nakikilala ang mga talata.</string>
+    <string name="detect_mode_description_select">Maaari mo ring tukuyin ang nais na saklaw.</string>
+    <string name="detect_mode_description_word">Ituro ang isang salita para agad itong maisalin.</string>
+    <string name="detect_mode_description_fixed_area">Maaari kang tuloy-tuloy na magsalin ng mga nakapirming lugar, tulad ng mga subtitle ng pelikula.</string>
   <string name="say_here">Nandito ako!</string>
   <string name="hint_settings_reopen">I-double tap ang hawakan para muling buksan ang mga setting</string>
   <string name="openai_key_guide">Ilagay ang iyong OpenAI API key para magsalin gamit ang mga modelo ng OpenAI.</string>

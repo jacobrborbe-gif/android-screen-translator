@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Γραμμή μενού</string>
     <string name="settings_menu_menubar_visible">Εμφάνιση γραμμής μενού</string>
     <string name="settings_menu_menubar_transparency">Διαφάνεια μενού</string>
-    <string name="settings_menu_menubar_composition">Λειτουργίες μενού</string>
+    <string name="settings_menu_menubar_composition">Διάταξη γραμμής μενού</string>
     <string name="settings_menu_cat_translation">Μετάφραση</string>
     <string name="settings_menu_translation_transparency">Διαφάνεια μετάφρασης</string>
     <string name="settings_menu_translation_close_delay">Καθυστέρηση κλεισίματος</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Γίνεται επαλήθευση…</string>
     <string name="deepl_key_network_error">Δεν ήταν δυνατή η επαλήθευση του κλειδιού λόγω σφάλματος δικτύου. Το κλειδί αποθηκεύτηκε.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Οι προτάσεις επιλέγονται αυτόματα.</string>
-    <string name="premium_view_description_paragraph_detection">Οι παράγραφοι αναγνωρίζονται αυτόματα.</string>
-    <string name="premium_view_description_select_detection">Μπορείτε επίσης να καθορίσετε το εύρος που θέλετε.</string>
-    <string name="premium_view_description_word_detection">Δείξτε μια λέξη για άμεση μετάφραση.</string>
-    <string name="premium_view_description_fixed_area_detection">Μπορείτε να μεταφράζετε συνεχώς σταθερές περιοχές, όπως οι υπότιτλοι ταινιών.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Οι προτάσεις επιλέγονται αυτόματα.</string>
+    <string name="detect_mode_description_paragraph">Οι παράγραφοι αναγνωρίζονται αυτόματα.</string>
+    <string name="detect_mode_description_select">Μπορείτε επίσης να καθορίσετε το εύρος που θέλετε.</string>
+    <string name="detect_mode_description_word">Δείξτε μια λέξη για άμεση μετάφραση.</string>
+    <string name="detect_mode_description_fixed_area">Μπορείτε να μεταφράζετε συνεχώς σταθερές περιοχές, όπως οι υπότιτλοι ταινιών.</string>
   <string name="say_here">Εδώ είμαι!</string>
   <string name="hint_settings_reopen">Πατήστε δύο φορές τη λαβή για να ανοίξετε ξανά τις ρυθμίσεις</string>
   <string name="openai_key_guide">Εισαγάγετε το κλειδί OpenAI API σας για μετάφραση με μοντέλα OpenAI.</string>

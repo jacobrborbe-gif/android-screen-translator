@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menyu paneli</string>
     <string name="settings_menu_menubar_visible">Menyu panelini göstər</string>
     <string name="settings_menu_menubar_transparency">Menyu şəffaflığı</string>
-    <string name="settings_menu_menubar_composition">Menyu funksiyaları</string>
+    <string name="settings_menu_menubar_composition">Menyu paneli tərtibatı</string>
     <string name="settings_menu_cat_translation">Tərcümə</string>
     <string name="settings_menu_translation_transparency">Tərcümə şəffaflığı</string>
     <string name="settings_menu_translation_close_delay">Bağlanma gecikməsi</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Yoxlanılır…</string>
     <string name="deepl_key_network_error">Şəbəkə xətası səbəbindən açar doğrulana bilmədi. Açar yadda saxlanıldı.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Cümlələr avtomatik seçilir.</string>
-    <string name="premium_view_description_paragraph_detection">Paraqraflar avtomatik olaraq tanınır.</string>
-    <string name="premium_view_description_select_detection">Tərcümə etmək istədiyiniz sahəni seçə bilərsiniz.</string>
-    <string name="premium_view_description_word_detection">Bir sözü göstərin, dərhal tərcümə olunsun.</string>
-    <string name="premium_view_description_fixed_area_detection">Film altyazıları kimi sabit sahələri davamlı tərcümə edə bilərsiniz.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Cümlələr avtomatik seçilir.</string>
+    <string name="detect_mode_description_paragraph">Paraqraflar avtomatik olaraq tanınır.</string>
+    <string name="detect_mode_description_select">Tərcümə etmək istədiyiniz sahəni seçə bilərsiniz.</string>
+    <string name="detect_mode_description_word">Bir sözü göstərin, dərhal tərcümə olunsun.</string>
+    <string name="detect_mode_description_fixed_area">Film altyazıları kimi sabit sahələri davamlı tərcümə edə bilərsiniz.</string>
   <string name="say_here">Mən buradayam!</string>
   <string name="hint_settings_reopen">Parametrləri yenidən açmaq üçün tutacağa iki dəfə toxunun</string>
   <string name="openai_key_guide">OpenAI modelləri ilə tərcümə etmək üçün OpenAI API açarınızı daxil edin.</string>

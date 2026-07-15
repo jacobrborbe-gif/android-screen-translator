@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Barra de menú</string>
     <string name="settings_menu_menubar_visible">Mostrar a barra de menús</string>
     <string name="settings_menu_menubar_transparency">Transparencia do menú</string>
-    <string name="settings_menu_menubar_composition">Funcións do menú</string>
+    <string name="settings_menu_menubar_composition">Composición da barra de menús</string>
     <string name="settings_menu_cat_translation">Tradución</string>
     <string name="settings_menu_translation_transparency">Transparencia da tradución</string>
     <string name="settings_menu_translation_close_delay">Retardo ao pechar</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Verificando…</string>
     <string name="deepl_key_network_error">Non se puido verificar a clave debido a un erro de rede. A clave gardouse.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">As frases seleccionanse automaticamente.</string>
-    <string name="premium_view_description_paragraph_detection">Las unidades de párrafo se reconocen automáticamente.</string>
-    <string name="premium_view_description_select_detection">También puedes especificar el rango que deseas.</string>
-    <string name="premium_view_description_word_detection">Apunta a unha palabra para traducila ao instante.</string>
-    <string name="premium_view_description_fixed_area_detection">Podes traducir continuamente áreas fixas, como as subtitulacións das películas.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">As frases seleccionanse automaticamente.</string>
+    <string name="detect_mode_description_paragraph">Las unidades de párrafo se reconocen automáticamente.</string>
+    <string name="detect_mode_description_select">También puedes especificar el rango que deseas.</string>
+    <string name="detect_mode_description_word">Apunta a unha palabra para traducila ao instante.</string>
+    <string name="detect_mode_description_fixed_area">Podes traducir continuamente áreas fixas, como as subtitulacións das películas.</string>
   <string name="say_here">Estou aquí!</string>
   <string name="hint_settings_reopen">Toca dúas veces o controlador para abrir de novo a configuración</string>
   <string name="openai_key_guide">Introduce a túa clave de API de OpenAI para traducir con modelos de OpenAI.</string>

@@ -152,7 +152,7 @@ class PreferenceRepository @Inject constructor(@ApplicationContext val context: 
     }
 
     val translationKitTypeFlow: Flow<TranslationKitType> = preferenceFlow.map { preferences ->
-        // 과거 선택한 AZURE/DEEPL/PAPAGO 등이 저장돼 있어도 GOOGLE 로 폴백
+        // 과거에 저장된, 지금은 없는 엔진 값이라도 안전하게 GOOGLE 로 폴백
         safeEnumValueOf(preferences[TRANSLATION_KIT_TYPE], TranslationKitType.GOOGLE)
     }
 

@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Bari ya Menyu</string>
     <string name="settings_menu_menubar_visible">Onyesha upau wa menyu</string>
     <string name="settings_menu_menubar_transparency">Uwazi wa Menyu</string>
-    <string name="settings_menu_menubar_composition">Kazi za Menyu</string>
+    <string name="settings_menu_menubar_composition">Muundo wa upau wa menyu</string>
     <string name="settings_menu_cat_translation">Tafsiri</string>
     <string name="settings_menu_translation_transparency">Uwazi wa Tafsiri</string>
     <string name="settings_menu_translation_close_delay">Ucheleweshaji wa Kufunga</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Inathibitisha…</string>
     <string name="deepl_key_network_error">Ufunguo haukuweza kuthibitishwa kutokana na hitilafu ya mtandao. Ufunguo umehifadhiwa.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Sentensi huchaguliwa kiotomatiki.</string>
-    <string name="premium_view_description_paragraph_detection">Aya hutambuliwa kiotomatiki.</string>
-    <string name="premium_view_description_select_detection">Unaweza pia kuchagua eneo unalotaka.</string>
-    <string name="premium_view_description_word_detection">Elekeza kwenye neno ili litafsiriwe papo hapo.</string>
-    <string name="premium_view_description_fixed_area_detection">Unaweza kutafsiri maeneo yaliyowekwa, kama vile manukuu ya filamu, kwa kuendelea.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Sentensi huchaguliwa kiotomatiki.</string>
+    <string name="detect_mode_description_paragraph">Aya hutambuliwa kiotomatiki.</string>
+    <string name="detect_mode_description_select">Unaweza pia kuchagua eneo unalotaka.</string>
+    <string name="detect_mode_description_word">Elekeza kwenye neno ili litafsiriwe papo hapo.</string>
+    <string name="detect_mode_description_fixed_area">Unaweza kutafsiri maeneo yaliyowekwa, kama vile manukuu ya filamu, kwa kuendelea.</string>
   <string name="say_here">Niko hapa!</string>
   <string name="hint_settings_reopen">Gusa mara mbili kishikizo ili kufungua mipangilio tena</string>
   <string name="openai_key_guide">Weka ufunguo wako wa OpenAI API ili kutafsiri kwa miundo ya OpenAI.</string>

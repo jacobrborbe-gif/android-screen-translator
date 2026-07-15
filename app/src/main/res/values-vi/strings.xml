@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Thanh menu</string>
     <string name="settings_menu_menubar_visible">Hiển thị thanh menu</string>
   <string name="settings_menu_menubar_transparency">Độ trong suốt của menu</string>
-  <string name="settings_menu_menubar_composition">Chức năng menu</string>
+  <string name="settings_menu_menubar_composition">Bố cục thanh menu</string>
   <string name="settings_menu_cat_translation">Dịch</string>
   <string name="settings_menu_translation_transparency">Độ trong suốt của dịch</string>
   <string name="settings_menu_translation_close_delay">Trễ đóng</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Đang xác minh…</string>
   <string name="deepl_key_network_error">Không thể xác minh khóa do lỗi mạng. Khóa đã được lưu.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Câu được chọn tự động.</string>
-  <string name="premium_view_description_paragraph_detection">Tự động phát hiện đoạn văn.</string>
-  <string name="premium_view_description_select_detection">Bạn cũng có thể chọn vùng muốn dịch.</string>
-  <string name="premium_view_description_word_detection">Trỏ vào một từ để dịch ngay lập tức.</string>
-  <string name="premium_view_description_fixed_area_detection">Bạn có thể dịch liên tục các khu vực cố định, như phụ đề phim.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Câu được chọn tự động.</string>
+  <string name="detect_mode_description_paragraph">Tự động phát hiện đoạn văn.</string>
+  <string name="detect_mode_description_select">Bạn cũng có thể chọn vùng muốn dịch.</string>
+  <string name="detect_mode_description_word">Trỏ vào một từ để dịch ngay lập tức.</string>
+  <string name="detect_mode_description_fixed_area">Bạn có thể dịch liên tục các khu vực cố định, như phụ đề phim.</string>
   <string name="say_here">Tôi ở đây!</string>
   <string name="hint_settings_reopen">Nhấn đúp vào tay cầm để mở lại cài đặt</string>
   <string name="openai_key_guide">Nhập khóa OpenAI API của bạn để dịch bằng các mô hình OpenAI.</string>

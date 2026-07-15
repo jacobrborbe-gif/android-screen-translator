@@ -116,6 +116,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.core.graphics.toColorInt
@@ -1036,11 +1038,14 @@ class SettingsActivity : AVDActivity() {
                                             ) {
                                                 MenuText(
                                                     text = getString(R.string.settings_menu_menubar_composition),
+                                                    fontSize = 13.sp,
+                                                    maxLines = 2,
                                                     onTextPositioned = { offset ->
                                                         menuBarConfigTextOffset.value = Point(offset.x - startPadding, offset.y)
                                                     },
                                                     modifier = Modifier
                                                         .align(Alignment.TopStart)
+                                                        .fillMaxWidth(0.5f)
                                                         .padding(top = 14.dp, start = 5.dp)
                                                 )
                                                 val scaleFactor = 0.48f
@@ -2652,17 +2657,21 @@ class SettingsActivity : AVDActivity() {
     fun MenuText(
         modifier: Modifier = Modifier,
         text: String,
+        fontSize: TextUnit? = null,
+        maxLines: Int = Int.MAX_VALUE,
         onGloballyPositioned: ((LayoutCoordinates) -> Unit)? = null,
         onTextPositioned: ((Point) -> Unit)? = null,
     ) {
         val isDarkMode = isSystemInDarkTheme()
         val textColor = if (isDarkMode) Color(0xFFfcfcfc) else Color(0xFF010000)
-        val fontSize = fontDimensionResource(R.dimen.settings_menu_text_size)
+        val resolvedFontSize = fontSize ?: fontDimensionResource(R.dimen.settings_menu_text_size)
 
         Text(
             text = text,
             color = textColor,
-            style = MaterialTheme.typography.bodyLarge.copy(fontSize = fontSize),
+            style = MaterialTheme.typography.bodyLarge.copy(fontSize = resolvedFontSize),
+            maxLines = maxLines,
+            overflow = TextOverflow.Ellipsis,
             modifier = modifier.onGloballyPositioned { layoutCoordinates ->
                 onGloballyPositioned?.let { it(layoutCoordinates) }
                 val offset = layoutCoordinates.positionOnScreen()

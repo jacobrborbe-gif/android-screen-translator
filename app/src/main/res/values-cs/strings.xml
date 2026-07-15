@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Panel menu</string>
     <string name="settings_menu_menubar_visible">Zobraziť panel nabídek</string>
     <string name="settings_menu_menubar_transparency">Průhlednost menu</string>
-    <string name="settings_menu_menubar_composition">Funkce menu</string>
+    <string name="settings_menu_menubar_composition">Uspořádání panelu nabídek</string>
     <string name="settings_menu_cat_translation">Překlad</string>
     <string name="settings_menu_translation_transparency">Průhlednost překladu</string>
     <string name="settings_menu_translation_close_delay">Zpoždění zavření</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Ověřování…</string>
     <string name="deepl_key_network_error">Klíč se nepodařilo ověřit kvůli chybě sítě. Klíč byl uložen.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Věty se vybírají automaticky.</string>
-    <string name="premium_view_description_paragraph_detection">Odstavce jsou rozpoznány automaticky.</string>
-    <string name="premium_view_description_select_detection">Můžete také vybrat konkrétní oblast pro překlad.</string>
-    <string name="premium_view_description_word_detection">Ukažte na slovo a ihned se přeloží.</string>
-    <string name="premium_view_description_fixed_area_detection">Můžete nepřetržitě překládat pevné oblasti, jako jsou filmové titulky.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Věty se vybírají automaticky.</string>
+    <string name="detect_mode_description_paragraph">Odstavce jsou rozpoznány automaticky.</string>
+    <string name="detect_mode_description_select">Můžete také vybrat konkrétní oblast pro překlad.</string>
+    <string name="detect_mode_description_word">Ukažte na slovo a ihned se přeloží.</string>
+    <string name="detect_mode_description_fixed_area">Můžete nepřetržitě překládat pevné oblasti, jako jsou filmové titulky.</string>
   <string name="say_here">Jsem tady!</string>
   <string name="hint_settings_reopen">Dvojitým klepnutím na úchyt znovu otevřete nastavení</string>
   <string name="openai_key_guide">Zadejte svůj klíč OpenAI API pro překlad pomocí modelů OpenAI.</string>

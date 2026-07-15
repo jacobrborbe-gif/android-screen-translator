@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">نوار منو</string>
     <string name="settings_menu_menubar_visible">نمایش نوار منو</string>
     <string name="settings_menu_menubar_transparency">شفافیت منو</string>
-    <string name="settings_menu_menubar_composition">عملکردهای منو</string>
+    <string name="settings_menu_menubar_composition">چیدمان نوار منو</string>
     <string name="settings_menu_cat_translation">ترجمه</string>
     <string name="settings_menu_translation_transparency">شفافیت ترجمه</string>
     <string name="settings_menu_translation_close_delay">تأخیر بستن</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">در حال بررسی…</string>
     <string name="deepl_key_network_error">به دلیل خطای شبکه نمی‌توان کلید را تأیید کرد. کلید ذخیره شد.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">جملات به‌طور خودکار انتخاب می‌شوند.</string>
-    <string name="premium_view_description_paragraph_detection">واحدهای پاراگراف به‌صورت خودکار شناسایی می‌شوند.</string>
-    <string name="premium_view_description_select_detection">می‌توانید محدوده دلخواه را نیز انتخاب کنید.</string>
-    <string name="premium_view_description_word_detection">به یک کلمه اشاره کنید تا فوراً ترجمه شود.</string>
-    <string name="premium_view_description_fixed_area_detection">می‌توانید بخش‌های ثابت مانند زیرنویس فیلم را به‌صورت مداوم ترجمه کنید.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">جملات به‌طور خودکار انتخاب می‌شوند.</string>
+    <string name="detect_mode_description_paragraph">واحدهای پاراگراف به‌صورت خودکار شناسایی می‌شوند.</string>
+    <string name="detect_mode_description_select">می‌توانید محدوده دلخواه را نیز انتخاب کنید.</string>
+    <string name="detect_mode_description_word">به یک کلمه اشاره کنید تا فوراً ترجمه شود.</string>
+    <string name="detect_mode_description_fixed_area">می‌توانید بخش‌های ثابت مانند زیرنویس فیلم را به‌صورت مداوم ترجمه کنید.</string>
   <string name="say_here">من اینجا هستم!</string>
   <string name="hint_settings_reopen">برای باز کردن دوباره تنظیمات، دو بار روی دستگیره ضربه بزنید</string>
   <string name="openai_key_guide">برای ترجمه با مدل‌های OpenAI، کلید OpenAI API خود را وارد کنید.</string>

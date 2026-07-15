@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">මෙනු තීරුව</string>
     <string name="settings_menu_menubar_visible">මෙනු තීරුව පෙන්වන්න</string>
     <string name="settings_menu_menubar_transparency">මෙනු පැහැදිලිභාවය</string>
-    <string name="settings_menu_menubar_composition">මෙනු ක්‍රියාකාරිත්වය</string>
+    <string name="settings_menu_menubar_composition">මෙනු තීරුවේ සැකැස්ම</string>
     <string name="settings_menu_cat_translation">පරිවර්තනය</string>
     <string name="settings_menu_translation_transparency">පරිවර්තන පැහැදිලිභාවය</string>
     <string name="settings_menu_translation_close_delay">වසීමේ විලම්බය</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">තහවුරු කරමින්…</string>
     <string name="deepl_key_network_error">ජාල දෝෂයක් හේතුවෙන් යතුර තහවුරු කළ නොහැකි විය. යතුර සුරකින ලදී.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">වාක්‍ය ස්වයංක්‍රීයව තෝරා ගැනේ.</string>
-    <string name="premium_view_description_paragraph_detection">පෙළ කොටස් ස්වයංක්‍රීයව හඳුනාගනී.</string>
-    <string name="premium_view_description_select_detection">ඔබට අවශ්‍ය පරාසය තෝරා ගත හැක.</string>
-    <string name="premium_view_description_word_detection">වචනයක් වෙත යොමු කරන්න, එය වහාම පරිවර්තනය වේ.</string>
-    <string name="premium_view_description_fixed_area_detection">චිත්‍රපට උපසිරැසි වැනි ස්ථිර ප්‍රදේශ නිරතුරුවම පරිවර්තනය කළ හැකිය.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">වාක්‍ය ස්වයංක්‍රීයව තෝරා ගැනේ.</string>
+    <string name="detect_mode_description_paragraph">පෙළ කොටස් ස්වයංක්‍රීයව හඳුනාගනී.</string>
+    <string name="detect_mode_description_select">ඔබට අවශ්‍ය පරාසය තෝරා ගත හැක.</string>
+    <string name="detect_mode_description_word">වචනයක් වෙත යොමු කරන්න, එය වහාම පරිවර්තනය වේ.</string>
+    <string name="detect_mode_description_fixed_area">චිත්‍රපට උපසිරැසි වැනි ස්ථිර ප්‍රදේශ නිරතුරුවම පරිවර්තනය කළ හැකිය.</string>
   <string name="say_here">මම මෙතන!</string>
   <string name="hint_settings_reopen">සැකසුම් නැවත විවෘත කිරීමට හැඬලය දෙවරක් තට්ටු කරන්න</string>
   <string name="openai_key_guide">OpenAI ආකෘති සමඟ පරිවර්තනය කිරීමට ඔබගේ OpenAI API යතුර ඇතුළත් කරන්න.</string>

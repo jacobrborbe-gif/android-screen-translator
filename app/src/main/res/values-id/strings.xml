@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Bilah menu</string>
     <string name="settings_menu_menubar_visible">Tampilkan bilah menu</string>
   <string name="settings_menu_menubar_transparency">Transparansi menu</string>
-  <string name="settings_menu_menubar_composition">Fungsi menu</string>
+  <string name="settings_menu_menubar_composition">Komposisi bilah menu</string>
   <string name="settings_menu_cat_translation">Terjemahan</string>
   <string name="settings_menu_translation_transparency">Transparansi terjemahan</string>
   <string name="settings_menu_translation_close_delay">Tunda penutupan</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Memverifikasi…</string>
   <string name="deepl_key_network_error">Kunci tidak dapat diverifikasi karena kesalahan jaringan. Kunci telah disimpan.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Kalimat dipilih secara otomatis.</string>
-  <string name="premium_view_description_paragraph_detection">Unit paragraf dikenali secara otomatis.</string>
-  <string name="premium_view_description_select_detection">Anda juga dapat menentukan area yang ingin diterjemahkan.</string>
-  <string name="premium_view_description_word_detection">Arahkan ke sebuah kata untuk menerjemahkannya seketika.</string>
-  <string name="premium_view_description_fixed_area_detection">Anda dapat menerjemahkan area tetap secara terus-menerus, seperti subtitle film.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Kalimat dipilih secara otomatis.</string>
+  <string name="detect_mode_description_paragraph">Unit paragraf dikenali secara otomatis.</string>
+  <string name="detect_mode_description_select">Anda juga dapat menentukan area yang ingin diterjemahkan.</string>
+  <string name="detect_mode_description_word">Arahkan ke sebuah kata untuk menerjemahkannya seketika.</string>
+  <string name="detect_mode_description_fixed_area">Anda dapat menerjemahkan area tetap secara terus-menerus, seperti subtitle film.</string>
   <string name="say_here">Saya di sini!</string>
   <string name="hint_settings_reopen">Ketuk dua kali gagang untuk membuka setelan lagi</string>
   <string name="openai_key_guide">Masukkan kunci OpenAI API Anda untuk menerjemahkan dengan model OpenAI.</string>

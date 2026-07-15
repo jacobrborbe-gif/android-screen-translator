@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Bara de meniu</string>
     <string name="settings_menu_menubar_visible">Afișează bara de meniu</string>
     <string name="settings_menu_menubar_transparency">Transparență meniu</string>
-    <string name="settings_menu_menubar_composition">Funcții meniu</string>
+    <string name="settings_menu_menubar_composition">Compoziția barei de meniu</string>
     <string name="settings_menu_cat_translation">Traducere</string>
     <string name="settings_menu_translation_transparency">Transparență traducere</string>
     <string name="settings_menu_translation_close_delay">Întârziere închidere</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Se verifică…</string>
     <string name="deepl_key_network_error">Cheia nu a putut fi verificată din cauza unei erori de rețea. Cheia a fost salvată.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Propozițiile sunt selectate automat.</string>
-    <string name="premium_view_description_paragraph_detection">Paragrafele sunt detectate automat.</string>
-    <string name="premium_view_description_select_detection">Poți selecta și manual zona dorită.</string>
-    <string name="premium_view_description_word_detection">Indică un cuvânt pentru a-l traduce instantaneu.</string>
-    <string name="premium_view_description_fixed_area_detection">Puteți traduce continuu zone fixe, cum ar fi subtitrările filmelor.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Propozițiile sunt selectate automat.</string>
+    <string name="detect_mode_description_paragraph">Paragrafele sunt detectate automat.</string>
+    <string name="detect_mode_description_select">Poți selecta și manual zona dorită.</string>
+    <string name="detect_mode_description_word">Indică un cuvânt pentru a-l traduce instantaneu.</string>
+    <string name="detect_mode_description_fixed_area">Puteți traduce continuu zone fixe, cum ar fi subtitrările filmelor.</string>
   <string name="say_here">Sunt aici!</string>
   <string name="hint_settings_reopen">Atinge de două ori mânerul pentru a redeschide setările</string>
   <string name="openai_key_guide">Introduceți cheia dvs. OpenAI API pentru a traduce cu modele OpenAI.</string>

@@ -48,7 +48,7 @@
     <string name="settings_menu_cat_menubar">Menu Bar</string>
     <string name="settings_menu_menubar_visible">Show the menu bar</string>
     <string name="settings_menu_menubar_transparency">Menu Bar Transparency</string>
-    <string name="settings_menu_menubar_composition">Menu Functions</string>
+    <string name="settings_menu_menubar_composition">Menu Bar Composition</string>
     <string name="settings_menu_cat_api_key" translatable="false">API Key</string>
     <string name="settings_menu_deepl_api_key" translatable="false">DeepL</string>
     <string name="deepl_key_guide">Enter your DeepL API key to use DeepL translation.</string>
@@ -96,10 +96,10 @@
     <string name="help_text_gemini_own_key">Uses your personal Gemini API key</string>
     <string name="help_text_claude_own_key">Uses your personal Claude API key</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Sentences are selected automatically.</string>
-    <string name="premium_view_description_paragraph_detection">Paragraph units are automatically recognized.</string>
-    <string name="premium_view_description_select_detection">You can also specify the range you want.</string>
-    <string name="premium_view_description_word_detection">Point at a word to translate it instantly.</string>
-    <string name="premium_view_description_fixed_area_detection">You can continuously translate fixed areas, such as movie subtitles.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Sentences are selected automatically.</string>
+    <string name="detect_mode_description_paragraph">Paragraph units are automatically recognized.</string>
+    <string name="detect_mode_description_select">You can also specify the range you want.</string>
+    <string name="detect_mode_description_word">Point at a word to translate it instantly.</string>
+    <string name="detect_mode_description_fixed_area">You can continuously translate fixed areas, such as movie subtitles.</string>
 </resources>

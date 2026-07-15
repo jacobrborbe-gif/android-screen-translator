@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">মেনু বার</string>
     <string name="settings_menu_menubar_visible">মেনু বার দেখান</string>
     <string name="settings_menu_menubar_transparency">মেনু স্বচ্ছতা</string>
-    <string name="settings_menu_menubar_composition">মেনু বিকল্প</string>
+    <string name="settings_menu_menubar_composition">মেনু বার বিন্যাস</string>
     <string name="settings_menu_cat_translation">অনুবাদ</string>
     <string name="settings_menu_translation_transparency">অনুবাদ স্বচ্ছতা</string>
     <string name="settings_menu_translation_close_delay">বন্ধে বিলম্ব</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">যাচাই করা হচ্ছে…</string>
     <string name="deepl_key_network_error">নেটওয়ার্ক ত্রুটির কারণে কী যাচাই করা যায়নি। কী সংরক্ষণ করা হয়েছে।</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">বাক্য স্বয়ংক্রিয়ভাবে নির্বাচিত হয়।</string>
-    <string name="premium_view_description_paragraph_detection">অনুচ্ছেদ স্বয়ংক্রিয়ভাবে শনাক্ত করা হয়।</string>
-    <string name="premium_view_description_select_detection">আপনি নিজে পছন্দমতো অংশ বেছে নিতে পারেন।</string>
-    <string name="premium_view_description_word_detection">একটি শব্দ নির্দেশ করুন, তা সঙ্গে সঙ্গে অনুবাদ হবে।</string>
-    <string name="premium_view_description_fixed_area_detection">চলচ্চিত্রের সাবটাইটেলের মতো নির্দিষ্ট ক্ষেত্রগুলি আপনি ধারাবাহিকভাবে অনুবাদ করতে পারেন।</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">বাক্য স্বয়ংক্রিয়ভাবে নির্বাচিত হয়।</string>
+    <string name="detect_mode_description_paragraph">অনুচ্ছেদ স্বয়ংক্রিয়ভাবে শনাক্ত করা হয়।</string>
+    <string name="detect_mode_description_select">আপনি নিজে পছন্দমতো অংশ বেছে নিতে পারেন।</string>
+    <string name="detect_mode_description_word">একটি শব্দ নির্দেশ করুন, তা সঙ্গে সঙ্গে অনুবাদ হবে।</string>
+    <string name="detect_mode_description_fixed_area">চলচ্চিত্রের সাবটাইটেলের মতো নির্দিষ্ট ক্ষেত্রগুলি আপনি ধারাবাহিকভাবে অনুবাদ করতে পারেন।</string>
   <string name="say_here">আমি এখানে!</string>
   <string name="hint_settings_reopen">সেটিংস আবার খুলতে হ্যান্ডেলে দুবার ট্যাপ করুন</string>
   <string name="openai_key_guide">OpenAI মডেল দিয়ে অনুবাদ করতে আপনার OpenAI API কী লিখুন।</string>

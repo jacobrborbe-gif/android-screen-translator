@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Trav d’uschigliada</string>
     <string name="settings_menu_menubar_visible">Mussar la barra da menu</string>
     <string name="settings_menu_menubar_transparency">Transparenza da menu</string>
-    <string name="settings_menu_menubar_composition">Funcziuns dal menu</string>
+    <string name="settings_menu_menubar_composition">Cumposiziun da la barra da menu</string>
     <string name="settings_menu_cat_translation">Translaziun</string>
     <string name="settings_menu_translation_transparency">Transparenza translaziun</string>
     <string name="settings_menu_translation_close_delay">Retard da serrar</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Verifitgar…</string>
     <string name="deepl_key_network_error">Impussibel da verifitgar la clav pervia d\'ina errur da rait. La clav è vegnida memorisada.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Las frasas vegnan tschernidas automaticamain.</string>
-    <string name="premium_view_description_paragraph_detection">Paragraphs vegnan renconuschids automaticamain.</string>
-    <string name="premium_view_description_select_detection">Pudais era tscherner la zona da translatar.</string>
-    <string name="premium_view_description_word_detection">Mussa sin in pled per translatar el immediatamain.</string>
-    <string name="premium_view_description_fixed_area_detection">Pudais translatar cuntinuaivlamain zonas fixas, sco per exempel sutitels da films.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Las frasas vegnan tschernidas automaticamain.</string>
+    <string name="detect_mode_description_paragraph">Paragraphs vegnan renconuschids automaticamain.</string>
+    <string name="detect_mode_description_select">Pudais era tscherner la zona da translatar.</string>
+    <string name="detect_mode_description_word">Mussa sin in pled per translatar el immediatamain.</string>
+    <string name="detect_mode_description_fixed_area">Pudais translatar cuntinuaivlamain zonas fixas, sco per exempel sutitels da films.</string>
   <string name="say_here">Jau sun qua!</string>
   <string name="hint_settings_reopen">Tutgai dubel la maunetta per avrir danovamain ils parameters</string>
   <string name="openai_key_guide">Endatai vossa clav API OpenAI per translatar cun models OpenAI.</string>

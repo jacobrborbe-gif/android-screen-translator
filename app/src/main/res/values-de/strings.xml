@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Menüleiste</string>
     <string name="settings_menu_menubar_visible">Menüleiste anzeigen</string>
   <string name="settings_menu_menubar_transparency">Menü-Transparenz</string>
-  <string name="settings_menu_menubar_composition">Menüfunktionen</string>
+  <string name="settings_menu_menubar_composition">Menüleisten-Layout</string>
   <string name="settings_menu_cat_translation">Übersetzung</string>
   <string name="settings_menu_translation_transparency">Übersetzungs-Transparenz</string>
   <string name="settings_menu_translation_close_delay">Schließverzögerung</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Wird überprüft…</string>
   <string name="deepl_key_network_error">Der Schlüssel konnte aufgrund eines Netzwerkfehlers nicht überprüft werden. Der Schlüssel wurde gespeichert.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Sätze werden automatisch ausgewählt.</string>
-  <string name="premium_view_description_paragraph_detection">Absätze werden automatisch erkannt.</string>
-  <string name="premium_view_description_select_detection">Sie können auch den gewünschten Bereich auswählen.</string>
-  <string name="premium_view_description_word_detection">Zeige auf ein Wort, um es sofort zu übersetzen.</string>
-  <string name="premium_view_description_fixed_area_detection">Du kannst feste Bereiche wie Filmuntertitel kontinuierlich übersetzen.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Sätze werden automatisch ausgewählt.</string>
+  <string name="detect_mode_description_paragraph">Absätze werden automatisch erkannt.</string>
+  <string name="detect_mode_description_select">Sie können auch den gewünschten Bereich auswählen.</string>
+  <string name="detect_mode_description_word">Zeige auf ein Wort, um es sofort zu übersetzen.</string>
+  <string name="detect_mode_description_fixed_area">Du kannst feste Bereiche wie Filmuntertitel kontinuierlich übersetzen.</string>
   <string name="say_here">Ich bin hier!</string>
   <string name="hint_settings_reopen">Tippe doppelt auf den Griff, um die Einstellungen wieder zu öffnen</string>
   <string name="openai_key_guide">Geben Sie Ihren OpenAI API-Schlüssel ein, um mit OpenAI-Modellen zu übersetzen.</string>

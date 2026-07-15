@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menyrad</string>
     <string name="settings_menu_menubar_visible">Visa menyraden</string>
     <string name="settings_menu_menubar_transparency">Menyns transparens</string>
-    <string name="settings_menu_menubar_composition">Menyns funktioner</string>
+    <string name="settings_menu_menubar_composition">Menyradens sammansättning</string>
     <string name="settings_menu_cat_translation">Översättning</string>
     <string name="settings_menu_translation_transparency">Översättningens transparens</string>
     <string name="settings_menu_translation_close_delay">Fördröjning vid stängning</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Verifierar…</string>
     <string name="deepl_key_network_error">Det gick inte att verifiera nyckeln på grund av ett nätverksfel. Nyckeln har sparats.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Meningar väljs automatiskt.</string>
-    <string name="premium_view_description_paragraph_detection">Stycken identifieras automatiskt.</string>
-    <string name="premium_view_description_select_detection">Du kan också välja det område du vill översätta.</string>
-    <string name="premium_view_description_word_detection">Peka på ett ord för att översätta det direkt.</string>
-    <string name="premium_view_description_fixed_area_detection">Du kan kontinuerligt översätta fasta områden, till exempel filmtexter.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Meningar väljs automatiskt.</string>
+    <string name="detect_mode_description_paragraph">Stycken identifieras automatiskt.</string>
+    <string name="detect_mode_description_select">Du kan också välja det område du vill översätta.</string>
+    <string name="detect_mode_description_word">Peka på ett ord för att översätta det direkt.</string>
+    <string name="detect_mode_description_fixed_area">Du kan kontinuerligt översätta fasta områden, till exempel filmtexter.</string>
   <string name="say_here">Jag är här!</string>
   <string name="hint_settings_reopen">Dubbeltryck på handtaget för att öppna inställningarna igen</string>
   <string name="openai_key_guide">Ange din OpenAI API-nyckel för att översätta med OpenAI-modeller.</string>

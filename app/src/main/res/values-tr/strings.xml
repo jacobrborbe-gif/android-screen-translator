@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Menü Çubuğu</string>
     <string name="settings_menu_menubar_visible">Menü çubuğunu göster</string>
   <string name="settings_menu_menubar_transparency">Menü Şeffaflığı</string>
-  <string name="settings_menu_menubar_composition">Menü Fonksiyonları</string>
+  <string name="settings_menu_menubar_composition">Menü çubuğu düzeni</string>
   <string name="settings_menu_cat_translation">Çeviri</string>
   <string name="settings_menu_translation_transparency">Çeviri Şeffaflığı</string>
   <string name="settings_menu_translation_close_delay">Kapanma Gecikmesi</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Doğrulanıyor…</string>
   <string name="deepl_key_network_error">Ağ hatası nedeniyle anahtar doğrulanamadı. Anahtar kaydedildi.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Cümleler otomatik olarak seçilir.</string>
-  <string name="premium_view_description_paragraph_detection">Paragraf birimleri otomatik olarak algılanır.</string>
-  <string name="premium_view_description_select_detection">İstediğiniz alanı manuel olarak seçebilirsiniz.</string>
-  <string name="premium_view_description_word_detection">Bir kelimeyi gösterin, anında çevrilsin.</string>
-  <string name="premium_view_description_fixed_area_detection">Film altyazıları gibi sabit alanları sürekli olarak çevirebilirsiniz.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Cümleler otomatik olarak seçilir.</string>
+  <string name="detect_mode_description_paragraph">Paragraf birimleri otomatik olarak algılanır.</string>
+  <string name="detect_mode_description_select">İstediğiniz alanı manuel olarak seçebilirsiniz.</string>
+  <string name="detect_mode_description_word">Bir kelimeyi gösterin, anında çevrilsin.</string>
+  <string name="detect_mode_description_fixed_area">Film altyazıları gibi sabit alanları sürekli olarak çevirebilirsiniz.</string>
   <string name="say_here">Buradayım!</string>
   <string name="hint_settings_reopen">Ayarları yeniden açmak için tutamağa iki kez dokunun</string>
   <string name="openai_key_guide">OpenAI modelleriyle çeviri yapmak için OpenAI API anahtarınızı girin.</string>

@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">ಮೆನು ಪಟ್ಟಿಗೆ</string>
     <string name="settings_menu_menubar_visible">ಮೆನು ಬಾರ್ ತೋರಿಸಿ</string>
     <string name="settings_menu_menubar_transparency">ಮೆನು ಪಾರದರ್ಶಕತೆ</string>
-    <string name="settings_menu_menubar_composition">ಮೆನು ವೈಶಿಷ್ಟ್ಯಗಳು</string>
+    <string name="settings_menu_menubar_composition">ಮೆನು ಬಾರ್ ಸಂಯೋಜನೆ</string>
     <string name="settings_menu_cat_translation">ಅನುವಾದ</string>
     <string name="settings_menu_translation_transparency">ಅನುವಾದ ಪಾರದರ್ಶಕತೆ</string>
     <string name="settings_menu_translation_close_delay">ಮುಚ್ಚುವ ವಿಳಂಬ</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</string>
     <string name="deepl_key_network_error">ನೆಟ್‌ವರ್ಕ್ ದೋಷದಿಂದಾಗಿ ಕೀಲಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ. ಕೀಲಿಯನ್ನು ಉಳಿಸಲಾಗಿದೆ.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">ವಾಕ್ಯಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಯ್ಕೆಯಾಗುತ್ತವೆ.</string>
-    <string name="premium_view_description_paragraph_detection">ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗುರುತಿಸಲಾಗುತ್ತದೆ.</string>
-    <string name="premium_view_description_select_detection">ನೀವು ಬಯಸುವ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.</string>
-    <string name="premium_view_description_word_detection">ಒಂದು ಪದವನ್ನು ತೋರಿಸಿ, ಅದು ತಕ್ಷಣ ಅನುವಾದವಾಗುತ್ತದೆ.</string>
-    <string name="premium_view_description_fixed_area_detection">ಚಲನಚಿತ್ರ ಉಪಶೀರ್ಷಿಕೆಗಳಂತಹ ಸ್ಥಿರ ಪ್ರದೇಶಗಳನ್ನು ನೀವು ನಿರಂತರವಾಗಿ ಅನುವಾದಿಸಬಹುದು.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">ವಾಕ್ಯಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಯ್ಕೆಯಾಗುತ್ತವೆ.</string>
+    <string name="detect_mode_description_paragraph">ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗುರುತಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="detect_mode_description_select">ನೀವು ಬಯಸುವ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.</string>
+    <string name="detect_mode_description_word">ಒಂದು ಪದವನ್ನು ತೋರಿಸಿ, ಅದು ತಕ್ಷಣ ಅನುವಾದವಾಗುತ್ತದೆ.</string>
+    <string name="detect_mode_description_fixed_area">ಚಲನಚಿತ್ರ ಉಪಶೀರ್ಷಿಕೆಗಳಂತಹ ಸ್ಥಿರ ಪ್ರದೇಶಗಳನ್ನು ನೀವು ನಿರಂತರವಾಗಿ ಅನುವಾದಿಸಬಹುದು.</string>
   <string name="say_here">ನಾನು ಇಲ್ಲಿ!</string>
   <string name="hint_settings_reopen">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮತ್ತೆ ತೆರೆಯಲು ಹ್ಯಾಂಡಲ್ ಅನ್ನು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <string name="openai_key_guide">OpenAI ಮಾದರಿಗಳೊಂದಿಗೆ ಅನುವಾದಿಸಲು ನಿಮ್ಮ OpenAI API ಕೀಲಿಯನ್ನು ನಮೂದಿಸಿ.</string>

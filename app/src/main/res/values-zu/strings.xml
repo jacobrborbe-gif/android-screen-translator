@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Imenyu yeBar</string>
     <string name="settings_menu_menubar_visible">Bonisa ibha yemenyu</string>
     <string name="settings_menu_menubar_transparency">Ukuvuleka kweMenyu</string>
-    <string name="settings_menu_menubar_composition">Imisebenzi yeMenyu</string>
+    <string name="settings_menu_menubar_composition">Ukwakheka kwebha yemenyu</string>
     <string name="settings_menu_cat_translation">Ukuguqula</string>
     <string name="settings_menu_translation_transparency">Ukuvuleka kweguqulo</string>
     <string name="settings_menu_translation_close_delay">Ukuhamba kancane kokuphuma</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Iyaqinisekisa…</string>
     <string name="deepl_key_network_error">Ukhiye awukwazanga ukuqinisekiswa ngenxa yephutha lenethiwekhi. Ukhiye ulondoloziwe.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Imisho ikhethwa ngokuzenzakalela.</string>
-    <string name="premium_view_description_paragraph_detection">Amaparagrafu ayahlonzwa ngokuzenzakalelayo.</string>
-    <string name="premium_view_description_select_detection">Ungakhetha indawo ofuna ukuyihumusha.</string>
-    <string name="premium_view_description_word_detection">Khomba igama ukuze lihunyushwe ngokushesha.</string>
-    <string name="premium_view_description_fixed_area_detection">Ungaguqulela njalo izindawo ezimile, njengezihloko zezifilimu.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Imisho ikhethwa ngokuzenzakalela.</string>
+    <string name="detect_mode_description_paragraph">Amaparagrafu ayahlonzwa ngokuzenzakalelayo.</string>
+    <string name="detect_mode_description_select">Ungakhetha indawo ofuna ukuyihumusha.</string>
+    <string name="detect_mode_description_word">Khomba igama ukuze lihunyushwe ngokushesha.</string>
+    <string name="detect_mode_description_fixed_area">Ungaguqulela njalo izindawo ezimile, njengezihloko zezifilimu.</string>
   <string name="say_here">Ngilapha!</string>
   <string name="hint_settings_reopen">Thepha kabili isibambo ukuze uvule izilungiselelo futhi</string>
   <string name="openai_key_guide">Faka ukhiye wakho we-OpenAI API ukuze uhumushe ngezimodeli ze-OpenAI.</string>

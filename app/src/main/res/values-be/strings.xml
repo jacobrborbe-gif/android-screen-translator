@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Панэль меню</string>
     <string name="settings_menu_menubar_visible">Паказваць панэль меню</string>
     <string name="settings_menu_menubar_transparency">Празрыстасць меню</string>
-    <string name="settings_menu_menubar_composition">Функцыі меню</string>
+    <string name="settings_menu_menubar_composition">Кампаноўка панэлі меню</string>
     <string name="settings_menu_cat_translation">Пераклад</string>
     <string name="settings_menu_translation_transparency">Празрыстасць перакладу</string>
     <string name="settings_menu_translation_close_delay">Затрымка закрыцця</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Праверка…</string>
     <string name="deepl_key_network_error">Не ўдалося праверыць ключ праз памылку сеткі. Ключ захаваны.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Сказы выбіраюцца аўтаматычна.</string>
-    <string name="premium_view_description_paragraph_detection">Абзацы вызначаюцца аўтаматычна.</string>
-    <string name="premium_view_description_select_detection">Вы таксама можаце выбраць жаданую вобласць.</string>
-    <string name="premium_view_description_word_detection">Навядзіце на слова, каб адразу яго перакласці.</string>
-    <string name="premium_view_description_fixed_area_detection">Вы можаце бесперапынна перакладаць фіксаваныя вобласці, напрыклад, субцітры фільмаў.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Сказы выбіраюцца аўтаматычна.</string>
+    <string name="detect_mode_description_paragraph">Абзацы вызначаюцца аўтаматычна.</string>
+    <string name="detect_mode_description_select">Вы таксама можаце выбраць жаданую вобласць.</string>
+    <string name="detect_mode_description_word">Навядзіце на слова, каб адразу яго перакласці.</string>
+    <string name="detect_mode_description_fixed_area">Вы можаце бесперапынна перакладаць фіксаваныя вобласці, напрыклад, субцітры фільмаў.</string>
   <string name="say_here">Я тут!</string>
   <string name="hint_settings_reopen">Двойчы націсніце маркер, каб зноў адкрыць налады</string>
   <string name="openai_key_guide">Увядзіце свой ключ OpenAI API, каб перакладаць з дапамогай мадэляў OpenAI.</string>

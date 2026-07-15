@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Izvēlnes josla</string>
     <string name="settings_menu_menubar_visible">Rādīt izvēlnes joslu</string>
   <string name="settings_menu_menubar_transparency">Izvēlnes caurspīdīgums</string>
-  <string name="settings_menu_menubar_composition">Izvēlnes funkcijas</string>
+  <string name="settings_menu_menubar_composition">Izvēlnes joslas sastāvs</string>
   <string name="settings_menu_cat_translation">Tulkot</string>
   <string name="settings_menu_translation_transparency">Tulk. caurspīdīgums</string>
   <string name="settings_menu_translation_close_delay">Aizvēršanas aizkave</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Notiek pārbaude…</string>
   <string name="deepl_key_network_error">Atslēgu nevarēja pārbaudīt tīkla kļūdas dēļ. Atslēga tika saglabāta.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Teikumi tiek atlasīti automātiski.</string>
-  <string name="premium_view_description_paragraph_detection">Automātiska rindkopu atpazīšana.</string>
-  <string name="premium_view_description_select_detection">Varat arī izvēlēties konkrētu apgabalu.</string>
-  <string name="premium_view_description_word_detection">Norādiet uz vārdu, un tas tiks nekavējoties iztulkots.</string>
-  <string name="premium_view_description_fixed_area_detection">Jūs varat nepārtraukti tulkot fiksētas zonas, piemēram, filmu subtitrus.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Teikumi tiek atlasīti automātiski.</string>
+  <string name="detect_mode_description_paragraph">Automātiska rindkopu atpazīšana.</string>
+  <string name="detect_mode_description_select">Varat arī izvēlēties konkrētu apgabalu.</string>
+  <string name="detect_mode_description_word">Norādiet uz vārdu, un tas tiks nekavējoties iztulkots.</string>
+  <string name="detect_mode_description_fixed_area">Jūs varat nepārtraukti tulkot fiksētas zonas, piemēram, filmu subtitrus.</string>
   <string name="say_here">Es esmu šeit!</string>
   <string name="hint_settings_reopen">Divreiz pieskarieties rokturim, lai atkal atvērtu iestatījumus</string>
   <string name="openai_key_guide">Ievadiet savu OpenAI API atslēgu, lai tulkotu ar OpenAI modeļiem.</string>

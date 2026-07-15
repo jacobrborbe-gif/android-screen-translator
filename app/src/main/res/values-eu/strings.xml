@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menu-barra</string>
     <string name="settings_menu_menubar_visible">Erakutsi menu-barra</string>
     <string name="settings_menu_menubar_transparency">Menuaren gardentasuna</string>
-    <string name="settings_menu_menubar_composition">Menu-funtzioak</string>
+    <string name="settings_menu_menubar_composition">Menu-barraren osaera</string>
     <string name="settings_menu_cat_translation">Itzulpena</string>
     <string name="settings_menu_translation_transparency">Itzulpenaren gardentasuna</string>
     <string name="settings_menu_translation_close_delay">Itxiera atzerapena</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Egiaztatzen…</string>
     <string name="deepl_key_network_error">Ezin izan da gakoa egiaztatu sareko errore baten ondorioz. Gakoa gorde da.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Esaldiak automatikoki hautatzen dira.</string>
-    <string name="premium_view_description_paragraph_detection">Paragrafoak automatikoki detektatzen dira.</string>
-    <string name="premium_view_description_select_detection">Aukeratu nahi duzun eremua ere zehatz dezakezu.</string>
-    <string name="premium_view_description_word_detection">Seinalatu hitz bat berehala itzultzeko.</string>
-    <string name="premium_view_description_fixed_area_detection">Azpitituluak bezala, eremu finkoak etengabe itzuli ditzakezu.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Esaldiak automatikoki hautatzen dira.</string>
+    <string name="detect_mode_description_paragraph">Paragrafoak automatikoki detektatzen dira.</string>
+    <string name="detect_mode_description_select">Aukeratu nahi duzun eremua ere zehatz dezakezu.</string>
+    <string name="detect_mode_description_word">Seinalatu hitz bat berehala itzultzeko.</string>
+    <string name="detect_mode_description_fixed_area">Azpitituluak bezala, eremu finkoak etengabe itzuli ditzakezu.</string>
   <string name="say_here">Hemen nago!</string>
   <string name="hint_settings_reopen">Sakatu birritan heldulekua ezarpenak berriro irekitzeko</string>
   <string name="openai_key_guide">Sartu zure OpenAI API gakoa OpenAI ereduekin itzultzeko.</string>

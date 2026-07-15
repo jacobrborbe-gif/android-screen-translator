@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Меню тилкеси</string>
     <string name="settings_menu_menubar_visible">Меню тилкесин көрсөтүү</string>
     <string name="settings_menu_menubar_transparency">Менюнун ачыктыгы</string>
-    <string name="settings_menu_menubar_composition">Меню функциялары</string>
+    <string name="settings_menu_menubar_composition">Меню тилкесинин түзүлүшү</string>
     <string name="settings_menu_cat_translation">Котормо</string>
     <string name="settings_menu_translation_transparency">Котормонун ачыктыгы</string>
     <string name="settings_menu_translation_close_delay">Жабуу кечигүүсү</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Текшерилүүдө…</string>
     <string name="deepl_key_network_error">Тармак катасынан улам ачкычты текшерүү мүмкүн болгон жок. Ачкыч сакталды.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Сүйлөмдөр автоматтык түрдө тандалат.</string>
-    <string name="premium_view_description_paragraph_detection">Абзац бирдиктери автоматтык түрдө таанылат.</string>
-    <string name="premium_view_description_select_detection">Каалаган диапазонду көрсөтсөңүз болот.</string>
-    <string name="premium_view_description_word_detection">Сөздү көрсөтсөңүз, ал заматта которулат.</string>
-    <string name="premium_view_description_fixed_area_detection">Сиз тасманын субтитрлери сыяктуу туруктуу аймактарды тынымсыз которо аласыз.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Сүйлөмдөр автоматтык түрдө тандалат.</string>
+    <string name="detect_mode_description_paragraph">Абзац бирдиктери автоматтык түрдө таанылат.</string>
+    <string name="detect_mode_description_select">Каалаган диапазонду көрсөтсөңүз болот.</string>
+    <string name="detect_mode_description_word">Сөздү көрсөтсөңүз, ал заматта которулат.</string>
+    <string name="detect_mode_description_fixed_area">Сиз тасманын субтитрлери сыяктуу туруктуу аймактарды тынымсыз которо аласыз.</string>
   <string name="say_here">Мен бул жердемин!</string>
   <string name="hint_settings_reopen">Жөндөөлөрдү кайра ачуу үчүн туткага эки жолу таптаңыз</string>
   <string name="openai_key_guide">OpenAI моделдери менен которуу үчүн OpenAI API ачкычыңызды киргизиңиз.</string>

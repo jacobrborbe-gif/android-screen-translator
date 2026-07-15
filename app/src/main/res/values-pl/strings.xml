@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Pasek menu</string>
     <string name="settings_menu_menubar_visible">Pokaż pasek menu</string>
   <string name="settings_menu_menubar_transparency">Przezroczystość menu</string>
-  <string name="settings_menu_menubar_composition">Funkcje menu</string>
+  <string name="settings_menu_menubar_composition">Układ paska menu</string>
   <string name="settings_menu_cat_translation">Tłumaczenie</string>
   <string name="settings_menu_translation_transparency">Przezroczystość tłumaczenia</string>
   <string name="settings_menu_translation_close_delay">Opóźnienie zamknięcia</string>
@@ -75,12 +75,12 @@
   <string name="deepl_key_validating">Weryfikowanie…</string>
   <string name="deepl_key_network_error">Nie udało się zweryfikować klucza z powodu błędu sieci. Klucz został zapisany.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Zdania są zaznaczane automatycznie.</string>
-  <string name="premium_view_description_paragraph_detection">Akapity są wykrywane automatycznie.</string>
-  <string name="premium_view_description_select_detection">Możesz też ręcznie zaznaczyć wybrany zakres.</string>
-  <string name="premium_view_description_word_detection">Wskaż słowo, aby przetłumaczyć je natychmiast.</string>
-  <string name="premium_view_description_fixed_area_detection">Możesz nieprzerwanie tłumaczyć stałe obszary, takie jak napisy filmowe.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Zdania są zaznaczane automatycznie.</string>
+  <string name="detect_mode_description_paragraph">Akapity są wykrywane automatycznie.</string>
+  <string name="detect_mode_description_select">Możesz też ręcznie zaznaczyć wybrany zakres.</string>
+  <string name="detect_mode_description_word">Wskaż słowo, aby przetłumaczyć je natychmiast.</string>
+  <string name="detect_mode_description_fixed_area">Możesz nieprzerwanie tłumaczyć stałe obszary, takie jak napisy filmowe.</string>
   <string name="say_here">Jestem tutaj!</string>
   <string name="hint_settings_reopen">Dotknij dwukrotnie uchwytu, aby ponownie otworzyć ustawienia</string>
   <string name="openai_key_guide">Wprowadź swój klucz OpenAI API, aby tłumaczyć za pomocą modeli OpenAI.</string>

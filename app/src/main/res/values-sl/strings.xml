@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Meni vrstica</string>
     <string name="settings_menu_menubar_visible">Pokaži menijsko vrstico</string>
     <string name="settings_menu_menubar_transparency">Prosojnost menija</string>
-    <string name="settings_menu_menubar_composition">Funkcije menija</string>
+    <string name="settings_menu_menubar_composition">Sestava menijske vrstice</string>
     <string name="settings_menu_cat_translation">Prevod</string>
     <string name="settings_menu_translation_transparency">Prosojnost prevoda</string>
     <string name="settings_menu_translation_close_delay">Zakasnitev zapiranja</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Preverjanje…</string>
     <string name="deepl_key_network_error">Ključa ni bilo mogoče preveriti zaradi omrežne napake. Ključ je bil shranjen.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Stavki se izberejo samodejno.</string>
-    <string name="premium_view_description_paragraph_detection">Odstavki se zaznajo samodejno.</string>
-    <string name="premium_view_description_select_detection">Lahko izberete območje za prevod.</string>
-    <string name="premium_view_description_word_detection">Pokažite na besedo in takoj se prevede.</string>
-    <string name="premium_view_description_fixed_area_detection">Nenehno lahko prevajate fiksna območja, kot so podnapisi v filmih.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Stavki se izberejo samodejno.</string>
+    <string name="detect_mode_description_paragraph">Odstavki se zaznajo samodejno.</string>
+    <string name="detect_mode_description_select">Lahko izberete območje za prevod.</string>
+    <string name="detect_mode_description_word">Pokažite na besedo in takoj se prevede.</string>
+    <string name="detect_mode_description_fixed_area">Nenehno lahko prevajate fiksna območja, kot so podnapisi v filmih.</string>
   <string name="say_here">Tukaj sem!</string>
   <string name="hint_settings_reopen">Dvakrat tapnite ročico, da znova odprete nastavitve</string>
   <string name="openai_key_guide">Vnesite svoj ključ OpenAI API za prevajanje z modeli OpenAI.</string>

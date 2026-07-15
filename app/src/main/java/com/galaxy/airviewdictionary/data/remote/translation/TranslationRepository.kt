@@ -26,7 +26,7 @@ class TranslationRepository @Inject constructor(
     private val claudeKit: ClaudeKit,
 ) : AVDRepository() {
 
-    // 라틴 문자를 사용하는 언어 코드 리스트
+    // 라틴 문자를 사용하는 언어 코드 리스트. 이 로케일 사용자에게는 표시명 하단 정렬을 건너뛴다.
     private val latinLanguages = setOf("en", "es", "fr", "de", "pt", "it", "ro", "nl", "sv", "no", "da", "fi", "pl", "cs", "hu", "sk", "sl")
 
     val supportedLanguagesAsSource: List<Language> by lazy {
@@ -38,6 +38,8 @@ class TranslationRepository @Inject constructor(
             claudeKit.supportedLanguagesAsSource,
         ).partition { it.code.equals("auto", ignoreCase = true) }
 
+        // 비-라틴 로케일 사용자에게는 표시명이 부실한 언어([Language.noDisplayNameList])를 목록 맨 아래로 정렬한다.
+        // (현재 그 리스트는 비어 있어 결과적으로 전체 정렬과 동일하지만, 향후 확장을 위해 기제를 유지한다.)
         val userLanguageCode = Locale.getDefault().language
         if (userLanguageCode in latinLanguages) {
             autoLanguages + otherLanguages.sorted()
@@ -58,6 +60,7 @@ class TranslationRepository @Inject constructor(
             claudeKit.supportedLanguagesAsTarget,
         )
 
+        // 소스와 동일한 이유로, 비-라틴 로케일에서는 표시명이 부실한 언어를 하단으로 정렬한다.
         val userLanguageCode = Locale.getDefault().language
         if (userLanguageCode in latinLanguages) {
             mergedLanguages.sorted()

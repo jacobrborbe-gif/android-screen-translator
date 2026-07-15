@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">मेनू बार</string>
     <string name="settings_menu_menubar_visible">मेनू बार दाखवा</string>
     <string name="settings_menu_menubar_transparency">मेनू पारदर्शकता</string>
-    <string name="settings_menu_menubar_composition">मेनू फंक्शन्स</string>
+    <string name="settings_menu_menubar_composition">मेनू बार रचना</string>
     <string name="settings_menu_cat_translation">भाषांतर</string>
     <string name="settings_menu_translation_transparency">भाषांतर पारदर्शकता</string>
     <string name="settings_menu_translation_close_delay">बंद करण्याची विलंब</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">पडताळत आहे…</string>
     <string name="deepl_key_network_error">नेटवर्क त्रुटीमुळे की पडताळता आली नाही. की जतन केली आहे.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">वाक्ये आपोआप निवडली जातात.</string>
-    <string name="premium_view_description_paragraph_detection">परिच्छेद आपोआप ओळखले जातात.</string>
-    <string name="premium_view_description_select_detection">तुम्हाला हवा तो भाग निवडू शकता.</string>
-    <string name="premium_view_description_word_detection">एखाद्या शब्दाकडे निर्देश करा, तो लगेच भाषांतरित होईल.</string>
-    <string name="premium_view_description_fixed_area_detection">तुम्ही चित्रपटांच्या सबटायटल्ससारख्या स्थिर भागांचे सतत भाषांतर करू शकता.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">वाक्ये आपोआप निवडली जातात.</string>
+    <string name="detect_mode_description_paragraph">परिच्छेद आपोआप ओळखले जातात.</string>
+    <string name="detect_mode_description_select">तुम्हाला हवा तो भाग निवडू शकता.</string>
+    <string name="detect_mode_description_word">एखाद्या शब्दाकडे निर्देश करा, तो लगेच भाषांतरित होईल.</string>
+    <string name="detect_mode_description_fixed_area">तुम्ही चित्रपटांच्या सबटायटल्ससारख्या स्थिर भागांचे सतत भाषांतर करू शकता.</string>
   <string name="say_here">मी इथे आहे!</string>
   <string name="hint_settings_reopen">सेटिंग्ज पुन्हा उघडण्यासाठी हँडलवर दोनदा टॅप करा</string>
   <string name="openai_key_guide">OpenAI मॉडेल्ससह भाषांतर करण्यासाठी तुमची OpenAI API की प्रविष्ट करा.</string>

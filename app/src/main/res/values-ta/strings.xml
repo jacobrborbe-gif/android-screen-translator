@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">மெனு பட்டி</string>
     <string name="settings_menu_menubar_visible">மெனு பட்டியைக் காட்டு</string>
     <string name="settings_menu_menubar_transparency">மெனு வெளிப்படைத்தன்மை</string>
-    <string name="settings_menu_menubar_composition">மெனு செயல்பாடுகள்</string>
+    <string name="settings_menu_menubar_composition">மெனு பட்டி அமைப்பு</string>
     <string name="settings_menu_cat_translation">மொழிபெயர்ப்பு</string>
     <string name="settings_menu_translation_transparency">மொழிபெயர்ப்பின் வெளிப்படைத்தன்மை</string>
     <string name="settings_menu_translation_close_delay">மூடு தாமதம்</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">சரிபார்க்கிறது…</string>
     <string name="deepl_key_network_error">நெட்வொர்க் பிழை காரணமாக விசையைச் சரிபார்க்க முடியவில்லை. விசை சேமிக்கப்பட்டது.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">வாக்கியங்கள் தானாகவே தேர்ந்தெடுக்கப்படும்.</string>
-    <string name="premium_view_description_paragraph_detection">பத்தி அளவுகள் தானாக அடையாளம் காணப்படும்.</string>
-    <string name="premium_view_description_select_detection">நீங்கள் விரும்பும் பகுதியை தேர்ந்தெடுக்கலாம்.</string>
-    <string name="premium_view_description_word_detection">ஒரு சொல்லைச் சுட்டிக்காட்டினால் உடனே மொழிபெயர்க்கப்படும்.</string>
-    <string name="premium_view_description_fixed_area_detection">திரைப்பட வசன வரிகள் போன்ற நிலையான பகுதிகளை நீங்கள் தொடர்ச்சியாக மொழிபெயர்க்கலாம்.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">வாக்கியங்கள் தானாகவே தேர்ந்தெடுக்கப்படும்.</string>
+    <string name="detect_mode_description_paragraph">பத்தி அளவுகள் தானாக அடையாளம் காணப்படும்.</string>
+    <string name="detect_mode_description_select">நீங்கள் விரும்பும் பகுதியை தேர்ந்தெடுக்கலாம்.</string>
+    <string name="detect_mode_description_word">ஒரு சொல்லைச் சுட்டிக்காட்டினால் உடனே மொழிபெயர்க்கப்படும்.</string>
+    <string name="detect_mode_description_fixed_area">திரைப்பட வசன வரிகள் போன்ற நிலையான பகுதிகளை நீங்கள் தொடர்ச்சியாக மொழிபெயர்க்கலாம்.</string>
   <string name="say_here">நான் இங்கே!</string>
   <string name="hint_settings_reopen">அமைப்புகளை மீண்டும் திறக்க கைப்பிடியை இருமுறை தட்டவும்</string>
   <string name="openai_key_guide">OpenAI மாதிரிகளுடன் மொழிபெயர்க்க உங்கள் OpenAI API விசையை உள்ளிடவும்.</string>

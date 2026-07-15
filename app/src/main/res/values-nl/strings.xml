@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menubalk</string>
     <string name="settings_menu_menubar_visible">Menubalk weergeven</string>
     <string name="settings_menu_menubar_transparency">Menu-transparantie</string>
-    <string name="settings_menu_menubar_composition">Menufuncties</string>
+    <string name="settings_menu_menubar_composition">Menubalk-indeling</string>
     <string name="settings_menu_cat_translation">Vertaling</string>
     <string name="settings_menu_translation_transparency">Transparantie vertaling</string>
     <string name="settings_menu_translation_close_delay">Vertraging sluiten</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Verifiëren…</string>
     <string name="deepl_key_network_error">De sleutel kon niet worden geverifieerd vanwege een netwerkfout. De sleutel is opgeslagen.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Zinnen worden automatisch geselecteerd.</string>
-    <string name="premium_view_description_paragraph_detection">Paragrafen worden automatisch herkend.</string>
-    <string name="premium_view_description_select_detection">Je kunt ook zelf het bereik aangeven.</string>
-    <string name="premium_view_description_word_detection">Wijs een woord aan om het direct te vertalen.</string>
-    <string name="premium_view_description_fixed_area_detection">Je kunt vaste gebieden, zoals filmondertitels, continu vertalen.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Zinnen worden automatisch geselecteerd.</string>
+    <string name="detect_mode_description_paragraph">Paragrafen worden automatisch herkend.</string>
+    <string name="detect_mode_description_select">Je kunt ook zelf het bereik aangeven.</string>
+    <string name="detect_mode_description_word">Wijs een woord aan om het direct te vertalen.</string>
+    <string name="detect_mode_description_fixed_area">Je kunt vaste gebieden, zoals filmondertitels, continu vertalen.</string>
   <string name="say_here">Ik ben hier!</string>
   <string name="hint_settings_reopen">Dubbeltik op de handgreep om de instellingen opnieuw te openen</string>
   <string name="openai_key_guide">Voer je OpenAI API-sleutel in om te vertalen met OpenAI-modellen.</string>

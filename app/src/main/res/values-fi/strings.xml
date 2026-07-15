@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Valikkopalkki</string>
     <string name="settings_menu_menubar_visible">Näytä valikkopalkki</string>
     <string name="settings_menu_menubar_transparency">Valikon läpinäkyvyys</string>
-    <string name="settings_menu_menubar_composition">Valikon toiminnot</string>
+    <string name="settings_menu_menubar_composition">Valikkopalkin kokoonpano</string>
     <string name="settings_menu_cat_translation">Käännös</string>
     <string name="settings_menu_translation_transparency">Käännöksen läpinäkyvyys</string>
     <string name="settings_menu_translation_close_delay">Sulkemisen viive</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Vahvistetaan…</string>
     <string name="deepl_key_network_error">Avainta ei voitu vahvistaa verkkovirheen vuoksi. Avain tallennettiin.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Lauseet valitaan automaattisesti.</string>
-    <string name="premium_view_description_paragraph_detection">Kappaleet tunnistetaan automaattisesti.</string>
-    <string name="premium_view_description_select_detection">Voit myös valita käännettävän alueen itse.</string>
-    <string name="premium_view_description_word_detection">Osoita sanaa, niin se käännetään heti.</string>
-    <string name="premium_view_description_fixed_area_detection">Voit kääntää jatkuvasti kiinteitä alueita, kuten elokuvien tekstityksiä.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Lauseet valitaan automaattisesti.</string>
+    <string name="detect_mode_description_paragraph">Kappaleet tunnistetaan automaattisesti.</string>
+    <string name="detect_mode_description_select">Voit myös valita käännettävän alueen itse.</string>
+    <string name="detect_mode_description_word">Osoita sanaa, niin se käännetään heti.</string>
+    <string name="detect_mode_description_fixed_area">Voit kääntää jatkuvasti kiinteitä alueita, kuten elokuvien tekstityksiä.</string>
   <string name="say_here">Olen täällä!</string>
   <string name="hint_settings_reopen">Avaa asetukset uudelleen kaksoisnapauttamalla kahvaa</string>
   <string name="openai_key_guide">Anna OpenAI API -avaimesi kääntääksesi OpenAI-malleilla.</string>

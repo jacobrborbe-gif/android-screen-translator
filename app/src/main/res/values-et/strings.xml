@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Menüüriba</string>
     <string name="settings_menu_menubar_visible">Kuva menüüriba</string>
     <string name="settings_menu_menubar_transparency">Menüü läbipaistvus</string>
-    <string name="settings_menu_menubar_composition">Menüü funktsioonid</string>
+    <string name="settings_menu_menubar_composition">Menüüriba paigutus</string>
     <string name="settings_menu_cat_translation">Tõlge</string>
     <string name="settings_menu_translation_transparency">Tõlke läbipaistvus</string>
     <string name="settings_menu_translation_close_delay">Sulgemise viivitus</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Kontrollimine…</string>
     <string name="deepl_key_network_error">Võtit ei õnnestunud võrguvea tõttu kontrollida. Võti salvestati.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Laused valitakse automaatselt.</string>
-    <string name="premium_view_description_paragraph_detection">Lõigud tuvastatakse automaatselt.</string>
-    <string name="premium_view_description_select_detection">Saate ka soovitud ala käsitsi valida.</string>
-    <string name="premium_view_description_word_detection">Osuta sõnale, et see kohe tõlkida.</string>
-    <string name="premium_view_description_fixed_area_detection">Saad pidevalt tõlkida fikseeritud alasid, näiteks filmide subtiitreid.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Laused valitakse automaatselt.</string>
+    <string name="detect_mode_description_paragraph">Lõigud tuvastatakse automaatselt.</string>
+    <string name="detect_mode_description_select">Saate ka soovitud ala käsitsi valida.</string>
+    <string name="detect_mode_description_word">Osuta sõnale, et see kohe tõlkida.</string>
+    <string name="detect_mode_description_fixed_area">Saad pidevalt tõlkida fikseeritud alasid, näiteks filmide subtiitreid.</string>
   <string name="say_here">Olen siin!</string>
   <string name="hint_settings_reopen">Seadete uuesti avamiseks topeltpuudutage pidet</string>
   <string name="openai_key_guide">Sisestage oma OpenAI API-võti, et tõlkida OpenAI mudelitega.</string>

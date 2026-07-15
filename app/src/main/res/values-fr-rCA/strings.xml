@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Barre de menu</string>
     <string name="settings_menu_menubar_visible">Afficher la barre de menus</string>
     <string name="settings_menu_menubar_transparency">Transparence du menu</string>
-    <string name="settings_menu_menubar_composition">Fonctions du menu</string>
+    <string name="settings_menu_menubar_composition">Composition de la barre de menus</string>
     <string name="settings_menu_cat_translation">Traduction</string>
     <string name="settings_menu_translation_transparency">Transparence traduction</string>
     <string name="settings_menu_translation_close_delay">Délai de fermeture</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">Vérification…</string>
     <string name="deepl_key_network_error">Impossible de vérifier la clé en raison d\'une erreur réseau. La clé a été enregistrée.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Les phrases sont sélectionnées automatiquement.</string>
-    <string name="premium_view_description_paragraph_detection">Les paragraphes sont détectés automatiquement.</string>
-    <string name="premium_view_description_select_detection">Vous pouvez aussi sélectionner une zone spécifique.</string>
-    <string name="premium_view_description_word_detection">Pointez un mot pour le traduire instantanément.</string>
-    <string name="premium_view_description_fixed_area_detection">Vous pouvez traduire en continu des zones fixes, comme les sous-titres de films.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Les phrases sont sélectionnées automatiquement.</string>
+    <string name="detect_mode_description_paragraph">Les paragraphes sont détectés automatiquement.</string>
+    <string name="detect_mode_description_select">Vous pouvez aussi sélectionner une zone spécifique.</string>
+    <string name="detect_mode_description_word">Pointez un mot pour le traduire instantanément.</string>
+    <string name="detect_mode_description_fixed_area">Vous pouvez traduire en continu des zones fixes, comme les sous-titres de films.</string>
   <string name="say_here">Je suis ici!</string>
   <string name="hint_settings_reopen">Touchez deux fois la poignée pour rouvrir les paramètres</string>
   <string name="openai_key_guide">Saisissez votre clé API OpenAI pour traduire avec les modèles OpenAI.</string>

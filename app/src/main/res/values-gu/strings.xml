@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">મેનુ બાર</string>
     <string name="settings_menu_menubar_visible">મેનુ બાર બતાવો</string>
     <string name="settings_menu_menubar_transparency">મેનુ પારદર્શિતા</string>
-    <string name="settings_menu_menubar_composition">મેનુ વિકલ્પો</string>
+    <string name="settings_menu_menubar_composition">મેનુ બાર રચના</string>
     <string name="settings_menu_cat_translation">અનુવાદ</string>
     <string name="settings_menu_translation_transparency">અનુવાદ પારદર્શિતા</string>
     <string name="settings_menu_translation_close_delay">બંદ વિલંબ</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">ચકાસી રહ્યું છે…</string>
     <string name="deepl_key_network_error">નેટવર્ક ભૂલને કારણે કી ચકાસી શકાઈ નથી. કી સાચવવામાં આવી છે.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">વાક્યો આપમેળે પસંદ થાય છે.</string>
-    <string name="premium_view_description_paragraph_detection">પેરાગ્રાફ યુનિટ આપમેળે ઓળખાય છે.</string>
-    <string name="premium_view_description_select_detection">તમે પસંદગીઅનુસાર વિસ્તારો નિર્ધારિત કરી શકો છો.</string>
-    <string name="premium_view_description_word_detection">કોઈ શબ્દ પર નિર્દેશ કરો, તે તરત જ અનુવાદ થશે.</string>
-    <string name="premium_view_description_fixed_area_detection">તમે મૂવીના ઉપશીર્ષકો જેવી નિશ્ચિત વિસ્તારોનું સતત અનુવાદ કરી શકો છો.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">વાક્યો આપમેળે પસંદ થાય છે.</string>
+    <string name="detect_mode_description_paragraph">પેરાગ્રાફ યુનિટ આપમેળે ઓળખાય છે.</string>
+    <string name="detect_mode_description_select">તમે પસંદગીઅનુસાર વિસ્તારો નિર્ધારિત કરી શકો છો.</string>
+    <string name="detect_mode_description_word">કોઈ શબ્દ પર નિર્દેશ કરો, તે તરત જ અનુવાદ થશે.</string>
+    <string name="detect_mode_description_fixed_area">તમે મૂવીના ઉપશીર્ષકો જેવી નિશ્ચિત વિસ્તારોનું સતત અનુવાદ કરી શકો છો.</string>
   <string name="say_here">હું અહીં છું!</string>
   <string name="hint_settings_reopen">સેટિંગ્સ ફરીથી ખોલવા હેન્ડલ પર બે વાર ટૅપ કરો</string>
   <string name="openai_key_guide">OpenAI મોડલ સાથે અનુવાદ કરવા માટે તમારી OpenAI API કી દાખલ કરો.</string>

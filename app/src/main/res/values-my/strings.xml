@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">မီနူးဘား</string>
     <string name="settings_menu_menubar_visible">မီနူးဘားကို ပြရန်</string>
     <string name="settings_menu_menubar_transparency">မီနူး အထင်ကြည်မှု</string>
-    <string name="settings_menu_menubar_composition">မီနူး လုပ်ဆောင်ချက်များ</string>
+    <string name="settings_menu_menubar_composition">မီနူးဘား ဖွဲ့စည်းပုံ</string>
     <string name="settings_menu_cat_translation">ဘာသာပြန်</string>
     <string name="settings_menu_translation_transparency">ဘာသာပြန် အထင်ကြည်မှု</string>
     <string name="settings_menu_translation_close_delay">ပိတ်ချိန်နောက်ကျမှု</string>
@@ -75,12 +75,12 @@
     <string name="deepl_key_validating">စစ်ဆေးနေသည်…</string>
     <string name="deepl_key_network_error">ကွန်ရက်အမှားကြောင့် သော့ကို အတည်ပြု၍မရပါ။ သော့ကို သိမ်းဆည်းပြီးပါပြီ။</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">ဝါကျများကို အလိုအလျောက် ရွေးချယ်ပေးသည်။</string>
-    <string name="premium_view_description_paragraph_detection">စာပိုဒ်များကိုအလိုအလျောက်သိနိုင်သည်။</string>
-    <string name="premium_view_description_select_detection">သင့်လိုအပ်သောအပိုင်းကိုရွေးနိုင်သည်။</string>
-    <string name="premium_view_description_word_detection">စကားလုံးတစ်လုံးကို ညွှန်ပြပါ၊ ချက်ချင်းဘာသာပြန်ပေးပါမည်။</string>
-    <string name="premium_view_description_fixed_area_detection">ရုပ်ရှင်စာတန်းထိုးများကဲ့သို့သော တည်မြဲသောနေရာများကို သင်အမြဲတမ်းဘာသာပြန်နိုင်ပါသည်။</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">ဝါကျများကို အလိုအလျောက် ရွေးချယ်ပေးသည်။</string>
+    <string name="detect_mode_description_paragraph">စာပိုဒ်များကိုအလိုအလျောက်သိနိုင်သည်။</string>
+    <string name="detect_mode_description_select">သင့်လိုအပ်သောအပိုင်းကိုရွေးနိုင်သည်။</string>
+    <string name="detect_mode_description_word">စကားလုံးတစ်လုံးကို ညွှန်ပြပါ၊ ချက်ချင်းဘာသာပြန်ပေးပါမည်။</string>
+    <string name="detect_mode_description_fixed_area">ရုပ်ရှင်စာတန်းထိုးများကဲ့သို့သော တည်မြဲသောနေရာများကို သင်အမြဲတမ်းဘာသာပြန်နိုင်ပါသည်။</string>
   <string name="say_here">ဒီမှာပါ!</string>
   <string name="hint_settings_reopen">ဆက်တင်များ ပြန်ဖွင့်ရန် လက်ကိုင်ကို နှစ်ချက်တို့ပါ</string>
   <string name="openai_key_guide">OpenAI မော်ဒယ်များဖြင့် ဘာသာပြန်ရန် သင့် OpenAI API သော့ကို ထည့်သွင်းပါ။</string>

@@ -46,7 +46,7 @@
     <string name="settings_menu_cat_menubar">Мәзір жолағы</string>
     <string name="settings_menu_menubar_visible">Мәзір жолағын көрсету</string>
     <string name="settings_menu_menubar_transparency">Мәзір мөлдірлігі</string>
-    <string name="settings_menu_menubar_composition">Мәзір мүмкіндіктері</string>
+    <string name="settings_menu_menubar_composition">Мәзір жолағының құрамы</string>
     <string name="settings_menu_cat_translation">Аударма</string>
     <string name="settings_menu_translation_transparency">Аударма мөлдірлігі</string>
     <string name="settings_menu_translation_close_delay">Жабу кідірісі</string>
@@ -76,12 +76,12 @@
     <string name="deepl_key_validating">Тексерілуде…</string>
     <string name="deepl_key_network_error">Желі қатесіне байланысты кілтті тексеру мүмкін болмады. Кілт сақталды.</string>
 
-    <!-- PremiumView -->
-    <string name="premium_view_description_sentence_detection">Сөйлемдер автоматты түрде таңдалады.</string>
-    <string name="premium_view_description_paragraph_detection">Параграфтар автоматты түрде танылады.</string>
-    <string name="premium_view_description_select_detection">Қалаған аймақты өзіңіз таңдаңыз.</string>
-    <string name="premium_view_description_word_detection">Сөзді көрсетіңіз, ол бірден аударылады.</string>
-    <string name="premium_view_description_fixed_area_detection">Сіз фильм субтитрлері сияқты тіркелген аймақтарды үздіксіз аудара аласыз.</string>
+    <!-- Detect-mode descriptions -->
+    <string name="detect_mode_description_sentence">Сөйлемдер автоматты түрде таңдалады.</string>
+    <string name="detect_mode_description_paragraph">Параграфтар автоматты түрде танылады.</string>
+    <string name="detect_mode_description_select">Қалаған аймақты өзіңіз таңдаңыз.</string>
+    <string name="detect_mode_description_word">Сөзді көрсетіңіз, ол бірден аударылады.</string>
+    <string name="detect_mode_description_fixed_area">Сіз фильм субтитрлері сияқты тіркелген аймақтарды үздіксіз аудара аласыз.</string>
   <string name="say_here">Мен мұндамын!</string>
   <string name="hint_settings_reopen">Параметрлерді қайта ашу үшін тұтқаны екі рет түртіңіз</string>
   <string name="openai_key_guide">OpenAI үлгілерімен аудару үшін OpenAI API кілтіңізді енгізіңіз.</string>

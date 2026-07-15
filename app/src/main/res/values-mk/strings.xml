@@ -46,7 +46,7 @@
   <string name="settings_menu_cat_menubar">Мени лента</string>
     <string name="settings_menu_menubar_visible">Прикажи ја лентата со менија</string>
   <string name="settings_menu_menubar_transparency">Прозирност на менито</string>
-  <string name="settings_menu_menubar_composition">Функции на менито</string>
+  <string name="settings_menu_menubar_composition">Состав на лентата со менија</string>
   <string name="settings_menu_cat_translation">Превод</string>
   <string name="settings_menu_translation_transparency">Прозирност на преводот</string>
   <string name="settings_menu_translation_close_delay">Кашнење при затворање</string>
@@ -76,12 +76,12 @@
   <string name="deepl_key_validating">Се проверува…</string>
   <string name="deepl_key_network_error">Клучот не можеше да се провери поради мрежна грешка. Клучот е зачуван.</string>
 
-  <!-- PremiumView -->
-  <string name="premium_view_description_sentence_detection">Речениците се избираат автоматски.</string>
-  <string name="premium_view_description_paragraph_detection">Параграфите се препознаваат автоматски.</string>
-  <string name="premium_view_description_select_detection">Можете да изберете точен опсег.</string>
-  <string name="premium_view_description_word_detection">Покажете на збор за да се преведе веднаш.</string>
-  <string name="premium_view_description_fixed_area_detection">Можете постојано да преведувате фиксни области, како што се филмските преводи.</string>
+  <!-- Detect-mode descriptions -->
+  <string name="detect_mode_description_sentence">Речениците се избираат автоматски.</string>
+  <string name="detect_mode_description_paragraph">Параграфите се препознаваат автоматски.</string>
+  <string name="detect_mode_description_select">Можете да изберете точен опсег.</string>
+  <string name="detect_mode_description_word">Покажете на збор за да се преведе веднаш.</string>
+  <string name="detect_mode_description_fixed_area">Можете постојано да преведувате фиксни области, како што се филмските преводи.</string>
   <string name="say_here">Тука сум!</string>
   <string name="hint_settings_reopen">Допрете двапати на рачката за повторно да ги отворите поставките</string>
   <string name="openai_key_guide">Внесете го вашиот OpenAI API клуч за да преведувате со модели на OpenAI.</string>
