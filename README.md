@@ -92,42 +92,45 @@ Screen Translate floats on top of whatever you're doing. Just drag the pointer t
 ## Pick Your Translation Engine
 
 <p align="center">
-  <img src=".images/screenshots/04.png" width="250" alt="Multiple translation engines"/>
+  <img src=".images/screenshots/04.png" width="250" alt="Four translation engines"/>
 </p>
 
-Not all translation engines are created equal. Screen Translate lets you switch between **five engines** to find the best one for your language pair:
+Not all translation engines are created equal. Screen Translate lets you switch between **four engines** to find the best one for your language pair:
 
 <table>
   <tr>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Google Translate"/><br><br>
+    <td align="center" width="25%">
+      <img src=".images/xvgnxa19.png" width="130" alt="Google Translate"/><br><br>
       <strong>Google Translate</strong><br>
-      <sub>The all-rounder. Fast, free,<br>and built in — no key needed.</sub>
+      <sub>The all-rounder. Fast, free,<br>and covers 146+ languages.</sub>
     </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/DeepL-0F2B46?style=for-the-badge&logo=deepl&logoColor=white" alt="DeepL"/><br><br>
+    <td align="center" width="25%">
+      <img src=".images/mx4jheti.png" width="130" alt="DeepL"/><br><br>
       <strong>DeepL</strong><br>
       <sub>Natural, human-sounding<br>translations. Best for European languages.</sub>
     </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/><br><br>
-      <strong>OpenAI</strong><br>
-      <sub>LLM translation that keeps<br>context, tone, and idiom.</sub>
+    <td align="center" width="25%">
+      <img src=".images/Microsoft-Azure-Logo.webp" width="130" alt="Microsoft Azure"/><br><br>
+      <strong>Azure Translator</strong><br>
+      <sub>Microsoft's engine. Reliable<br>and accurate across languages.</sub>
     </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/><br><br>
-      <strong>Gemini</strong><br>
-      <sub>Google's LLM. Fast, with a<br>generous free tier.</sub>
-    </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"/><br><br>
-      <strong>Claude</strong><br>
-      <sub>Anthropic's LLM. Strong at<br>nuance and longer passages.</sub>
+    <td align="center" width="25%">
+      <img src="app/src/main/res/drawable/logo_engine_papago.png" width="65" alt="Papago"/><br><br>
+      <strong>Papago</strong><br>
+      <sub>Naver's neural MT. Excels at<br>Korean, Japanese, and Chinese.</sub>
     </td>
   </tr>
 </table>
 
-> Google works out of the box. **DeepL, OpenAI, Gemini and Claude run on your own API key** — enter it under *Settings → API Key*. For the three LLM engines you can also choose which model to use.
+---
+
+## AI-Powered Accuracy
+
+<p align="center">
+  <img src=".images/screenshots/01.png" width="250" alt="AI text correction"/>
+</p>
+
+OCR isn't perfect — sometimes it misreads characters. Screen Translate uses **ChatGPT** to clean up OCR errors before translating, so you get accurate results even from messy text, handwriting, or stylized fonts.
 
 ---
 
@@ -145,7 +148,7 @@ From Arabic to Zulu, from English to Japanese — translate between **130+ langu
 
 I live between languages every day, and existing solutions all required too many steps. I wanted something that just **works** — point at text, get the meaning. No context switching, no clipboard juggling.
 
-Over time, it grew into a full-featured translation tool with multiple engines and smart text recognition. And now **over 1 million people** use it.
+Over time, it grew into a full-featured translation tool with multiple engines, AI correction, and smart text recognition. And now **over 1 million people** use it.
 
 ---
 
@@ -171,12 +174,10 @@ All of this happens in **under a second**.
 | **Clean Architecture + MVVM** | Separation of concerns with ViewModels and Repositories |
 | **Hilt** | Dependency injection for clean, testable code |
 | **ML Kit** | On-device OCR for English, Chinese, Japanese, Korean, and Devanagari |
-| **Multi-engine translation** | Google, DeepL, OpenAI, Gemini, and Claude behind one interface |
+| **Multi-engine translation** | Google, DeepL, Azure, and Papago with smart routing |
 | **Coroutines + StateFlow** | Smooth async operations without callback hell |
-| **Firebase** | Analytics, Crashlytics, and Remote Config |
-| **Firebase App Check** | Play Integrity attestation for backend requests |
-| **AdMob** | A rewarded-ad gate — how the app stays free |
-| **Encrypted key storage** | AES-GCM + Android Keystore for user-supplied API keys |
+| **Firebase** | Analytics, Crashlytics, Remote Config, and Realtime Database |
+| **Play Integrity API** | Security verification to prevent abuse |
 | **MediaProjection** | Real-time screen capture with optimized frame streaming |
 
 ### Project structure
@@ -189,19 +190,15 @@ app/src/main/java/com/galaxy/airviewdictionary/
 │   │   ├── vision/        # OCR & text grouping algorithms
 │   │   ├── capture/       # Screen capture via MediaProjection
 │   │   ├── tts/           # Text-to-Speech
-│   │   ├── secure/        # Encrypted storage for user API keys
-│   │   ├── ads/           # Rewarded-ad state
 │   │   └── preference/    # User settings
 │   └── remote/
-│       ├── translation/   # Google, DeepL, OpenAI, Gemini, Claude
-│       ├── firebase/      # Analytics & Remote Config
-│       └── geolocale/     # Region lookup
+│       ├── translation/   # Google, DeepL, Azure, Papago APIs
+│       ├── ai/            # ChatGPT text correction
+│       └── billing/       # Google Play Billing
 ├── ui/
 │   ├── screen/
 │   │   ├── overlay/       # Floating translation UI
 │   │   ├── main/          # Settings screens
-│   │   ├── ads/           # Rewarded-ad gate
-│   │   ├── reply/         # Reply translation window
 │   │   └── onboarding/    # First-time setup
 │   └── common/            # Shared components
 ├── di/                    # Hilt dependency injection
@@ -222,8 +219,8 @@ app/src/main/java/com/galaxy/airviewdictionary/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/AidanPark/android-screen-translator.git
-   cd android-screen-translator
+   git clone https://github.com/AidanPark/src-screen-translator.git
+   cd src-screen-translator
    ```
 
 2. **Set up signing** — Edit `gradle.properties`:
@@ -240,7 +237,7 @@ app/src/main/java/com/galaxy/airviewdictionary/
    ./gradlew assembleDebug
    ```
 
-> **Note:** You'll need your own Firebase project to run the full app. Google translation and the on-device OCR need no API key at all. DeepL, OpenAI, Gemini and Claude are optional — they use keys you enter inside the app at runtime (*Settings → API Key*), not build-time config.
+> **Note:** You'll need your own API keys for translation services (Google, DeepL, Azure, Papago) and a Firebase project to run the full app. The OCR and on-device features work without any API keys.
 
 ---
 
