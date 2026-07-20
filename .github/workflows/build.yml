@@ -1,7 +1,7 @@
 name: Build Android APK
 
 on:
-  workflow_dispatch: # Allows you to trigger this manually
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,9 +16,15 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Bypass Firebase Requirement
+      - name: Bypass Firebase & Signing Requirements
         run: |
+          # Create fake firebase config
           echo '{"project_info":{"project_number":"123","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:123:android:123","android_client_info":{"package_name":"com.galaxy.airv"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}}]}' > app/google-services.json
+          
+          # Create fake signing properties so gradle doesn't crash
+          echo "KEYSTORE_FILE=dummy" >> gradle.properties
+          echo "KEY_ALIAS=dummy" >> gradle.properties
+          echo "KEY_PASSWORD=dummy" >> gradle.properties
 
       - name: Grant Execute Permission for Gradle
         run: chmod +x gradlew
@@ -30,5 +36,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ScreenTranslator-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
-          
+          path: app/build/outputs/apk/debug/app-de
+          bug.apk
