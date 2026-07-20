@@ -16,33 +16,51 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Auto-Patch Manifest Conflicts & Package Names
+      - name: Auto-Patch Manifest Conflicts
         run: |
-          # 1. Force all manifests to agree on allowBackup to fix the Merger crash
           find . -name "AndroidManifest.xml" -exec sed -i 's/android:allowBackup="true"/android:allowBackup="false"/g' {} +
-          
-          # 2. Inject a complete multi-client config using a clean, multi-line block
-          cat << 'EOF' > app/google-services.json
-          {
-            "project_info": {
-              "project_number": "12345",
-              "project_id": "dummy",
-              "storage_bucket": "dummy.appspot.com"
-            },
-            "client": [
-              { "client_info": { "mobilesdk_app_id": "1:123:android:001", "android_client_info": { "package_name": "com.galaxy.airv.dictionary" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:002", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator_new_ui-screen-translator" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:003", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator_new_ui" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:004", "android_client_info": { "package_name": "com.galaxy.airv.dictionary.app-dev" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:005", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator-screen-translator-app-dev" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:006", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:007", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator-app-dev" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
-              { "client_info": { "mobilesdk_app_id": "1:123:android:008", "android_client_info": { "package_name": "com.galaxy.airv.dictionary-screen-translator" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } }
-            ]
+
+      - name: Generate Mega Google Services JSON
+        shell: python
+        run: |
+          import json
+          packages = [
+              "com.galaxy.airv.dictionary",
+              "com.galaxy.airv.screen_translator",
+              "com.galaxy.airv.new_ui",
+              "com.galaxy.airv.screen_translator_new_ui",
+              "com.galaxy.airv.dictionary.app-dev",
+              "com.galaxy.airv.dictionary-screen-translator",
+              "com.galaxy.airv.dictionary.app-dev-screen-translator",
+              "com.galaxy.airv.screen_translator-app-dev",
+              "com.galaxy.airv.screen_translator-screen-translator-app-dev",
+              "com.galaxy.airv.screen_translator_new_ui-screen-translator",
+              "com.galaxy.airv.screen_translator.app-dev-screen-translator",
+              "com.galaxy.airv.new_ui.app-dev-screen-translator",
+              "com.galaxy.airv.screen_translator_new_ui.app-dev"
+          ]
+          data = {
+              "project_info": {
+                  "project_number": "12345",
+                  "project_id": "dummy",
+                  "storage_bucket": "dummy.appspot.com"
+              },
+              "client": []
           }
-          EOF
-          
-          # 3. Create fake signing properties to clear the key checks
+          for i, pkg in enumerate(packages):
+              data["client"].append({
+                  "client_info": {
+                      "mobilesdk_app_id": f"1:12345:android:fakeid{i}",
+                      "android_client_info": { "package_name": pkg }
+                  },
+                  "api_key": [{"current_key": "dummy"}],
+                  "services": {"appinvite_service": {"status": 1}}
+              })
+          with open("app/google-services.json", "w") as f:
+              json.dump(data, f, indent=2)
+
+      - name: Inject Fake Signing Configs
+        run: |
           echo "KEYSTORE_FILE=dummy" >> gradle.properties
           echo "KEY_ALIAS=dummy" >> gradle.properties
           echo "KEY_PASSWORD=dummy" >> gradle.properties
@@ -57,4 +75,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ScreenTranslator-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: app/build/outputs/apk/debug/app-
+          debug.apk
