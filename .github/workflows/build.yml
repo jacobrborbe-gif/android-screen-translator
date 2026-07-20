@@ -16,12 +16,15 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Bypass Firebase & Signing Requirements
+      - name: Auto-Patch Manifest Conflicts & Package Names
         run: |
-          # Create fake firebase config
-          echo '{"project_info":{"project_number":"123","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:123:android:123","android_client_info":{"package_name":"com.galaxy.airv"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}}]}' > app/google-services.json
+          # 1. Force all manifests to agree on allowBackup to fix the Merger crash
+          find . -name "AndroidManifest.xml" -exec sed -i 's/android:allowBackup="true"/android:allowBackup="false"/g' {} +
           
-          # Create fake signing properties so gradle doesn't crash
+          # 2. Inject the dummy firebase config using the CORRECT package name from your logs
+          echo '{"project_info":{"project_number":"123","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:123:android:123","android_client_info":{"package_name":"dev.abc.screen_translator"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}}]}' > app/google-services.json
+          
+          # 3. Create fake signing properties to clear the key checks
           echo "KEYSTORE_FILE=dummy" >> gradle.properties
           echo "KEY_ALIAS=dummy" >> gradle.properties
           echo "KEY_PASSWORD=dummy" >> gradle.properties
