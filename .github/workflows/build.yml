@@ -1,4 +1,4 @@
- name: Build Android APK
+name: Build Android APK
 
 on:
   workflow_dispatch:
@@ -21,8 +21,26 @@ jobs:
           # 1. Force all manifests to agree on allowBackup to fix the Merger crash
           find . -name "AndroidManifest.xml" -exec sed -i 's/android:allowBackup="true"/android:allowBackup="false"/g' {} +
           
-          # 2. Inject a complete multi-client config with mandatory unique IDs for every single variation
-          echo '{"project_info":{"project_number":"12345","project_id":"dummy","storage_bucket":"dummy.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:123:android:001","android_client_info":{"package_name":"com.galaxy.airv.dictionary"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:002","android_client_info":{"package_name":"com.galaxy.airv.screen_translator_new_ui-screen-translator"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:003","android_client_info":{"package_name":"com.galaxy.airv.screen_translator_new_ui"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:004","android_client_info":{"package_name":"com.galaxy.airv.dictionary.app-dev"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:005","android_client_info":{"package_name":"com.galaxy.airv.screen_translator-screen-translator-app-dev"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:006","android_client_info":{"package_name":"com.galaxy.airv.screen_translator"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:007","android_client_info":{"package_name":"com.galaxy.airv.screen_translator-app-dev"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}},{"client_info":{"mobilesdk_app_id":"1:123:android:008","android_client_info":{"package_name":"com.galaxy.airv.dictionary-screen-translator"}},"api_key":[{"current_key":"dummy"}],"services":{"appinvite_service":{"status":1}}}]}' > app/google-services.json
+          # 2. Inject a complete multi-client config using a clean, multi-line block
+          cat << 'EOF' > app/google-services.json
+          {
+            "project_info": {
+              "project_number": "12345",
+              "project_id": "dummy",
+              "storage_bucket": "dummy.appspot.com"
+            },
+            "client": [
+              { "client_info": { "mobilesdk_app_id": "1:123:android:001", "android_client_info": { "package_name": "com.galaxy.airv.dictionary" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:002", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator_new_ui-screen-translator" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:003", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator_new_ui" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:004", "android_client_info": { "package_name": "com.galaxy.airv.dictionary.app-dev" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:005", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator-screen-translator-app-dev" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:006", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:007", "android_client_info": { "package_name": "com.galaxy.airv.screen_translator-app-dev" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } },
+              { "client_info": { "mobilesdk_app_id": "1:123:android:008", "android_client_info": { "package_name": "com.galaxy.airv.dictionary-screen-translator" } }, "api_key": [{ "current_key": "dummy" }], "services": { "appinvite_service": { "status": 1 } } }
+            ]
+          }
+          EOF
           
           # 3. Create fake signing properties to clear the key checks
           echo "KEYSTORE_FILE=dummy" >> gradle.properties
